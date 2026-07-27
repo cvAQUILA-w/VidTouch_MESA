@@ -1,0 +1,3 @@
+_base_: ../mesa.yaml
+loss:
+  contrastive_weight: 0.0

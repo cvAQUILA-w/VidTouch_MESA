@@ -1,0 +1,3 @@
+_base_: ../mesa.yaml
+model:
+  fusion_mode: image_only

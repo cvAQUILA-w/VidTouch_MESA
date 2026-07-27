@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vidtouch-mesa"
+version = "0.1.0"
+description = "Material Evidence Semantic Alignment for VidTouch"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Yifan Wang"},
+  {name = "Yu Fu"},
+  {name = "Jie Wang"},
+  {name = "Jinduo Liu"},
+  {name = "Fenglong Ma"},
+]
+dependencies = [
+  "numpy>=1.24",
+  "opencv-python-headless>=4.8",
+  "Pillow>=9.5",
+  "PyYAML>=6.0",
+  "torch>=2.1",
+  "torchvision>=0.16",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+  "ruff>=0.5",
+]
+
+[project.scripts]
+vidtouch-cache = "vidtouch.cache:main"
+vidtouch-evaluate = "vidtouch.evaluate:main"
+vidtouch-train = "vidtouch.train:main"
+
+[tool.setuptools.packages.find]
+include = ["vidtouch*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

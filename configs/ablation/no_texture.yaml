@@ -1,0 +1,3 @@
+_base_: ../mesa.yaml
+model:
+  visual_texture_stats: false

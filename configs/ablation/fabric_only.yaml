@@ -1,0 +1,8 @@
+_base_: ../mesa.yaml
+loss:
+  positive_weights:
+    fabric: 1.0
+    weave: 0.0
+    material: 0.0
+    usage: 0.0
+    feature: 0.0

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use VidTouch or MESA, please cite this work."
+title: "VidTouch: A Multimodal Physical Evidence Benchmark and Evidence Set Learning Framework for Material Understanding"
+type: software
+version: 0.1.0
+date-released: 2026-07-27
+repository-code: "https://github.com/cvAQUILA-w/VidTouch_MESA"
+authors:
+  - family-names: Wang
+    given-names: Yifan
+  - family-names: Fu
+    given-names: Yu
+  - family-names: Wang
+    given-names: Jie
+  - family-names: Liu
+    given-names: Jinduo
+  - family-names: Ma
+    given-names: Fenglong

@@ -1,0 +1,5 @@
+_base_: ../mesa.yaml
+loss:
+  classification:
+    class_balance_beta: 0.0
+    feature_pos_weight: false

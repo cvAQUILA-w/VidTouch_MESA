@@ -1,0 +1,3 @@
+_base_: ../mesa.yaml
+data:
+  pair_recombination: false
