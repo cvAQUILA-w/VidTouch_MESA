@@ -4,6 +4,8 @@ Official PyTorch implementation of **Material Evidence Semantic Alignment
 (MESA)** for specimen-level RGB and tactile-video material understanding on
 VidTouch.
 
+Our dataset (VidTouch) is available at https://huggingface.co/datasets/AQUILA-espresso/VidTouch.
+
 MESA is tailored to the structure of VidTouch:
 
 - **Fabric-aware Pair Recombination (FPR)** samples valid RGB/tactile
@@ -196,6 +198,12 @@ metadata will be updated after acceptance.
 
 ## License
 
-The code and split manifests are released under the [MIT License](LICENSE).
-VidTouch media, annotations, pretrained backbones, and third-party code may
-have separate terms and are not redistributed by this repository.
+The source code and split manifests in this repository are released under the
+[MIT License](LICENSE).
+
+The VidTouch media and annotations are distributed separately through
+[Hugging Face](https://huggingface.co/datasets/AQUILA-espresso/VidTouch) under
+the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).
+
+Pretrained backbone weights and third-party dependencies are not redistributed
+in this repository and remain subject to their respective licenses.
