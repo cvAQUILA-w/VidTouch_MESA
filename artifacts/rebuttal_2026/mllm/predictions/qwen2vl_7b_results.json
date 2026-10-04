@@ -1,0 +1,1917 @@
+{
+  "val": {
+    "samples": [
+      {
+        "fid": "00",
+        "gt": {
+          "weave": "oxford",
+          "material": "cotton",
+          "usage": "laptopbag",
+          "features": [
+            "hard",
+            "rough"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The fabric in the picture appears to be a type of woven material with a consistent texture. Based on the visible characteristics, it is likely to be a blend of materials. Given the options provided, the most likely materials are:\n\n- Cottonpolyamide\n- Cottonpolyester\n- Cottonpolyesterspandex\n\nWithout more specific information, it's difficult to determine the exact blend, but these are common combinations that could produce a fabric with a similar appearance.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Rough\n- Thick\n- Warm\n- Wrinkle-resistant\n\nThese features are typically associated with a durable and textured fabric.",
+            "pred": [
+              "durable",
+              "rough",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "rough"
+            ],
+            "precision": 0.16666666666666666,
+            "recall": 1.0,
+            "f1": 0.2857142857142857
+          }
+        }
+      },
+      {
+        "fid": "0306",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "firm"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is rib.",
+            "pred": "rib",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be **cotton**. The texture and appearance are consistent with cotton yarn.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a ribbed knit material, which is commonly used for various types of knitwear. It could be suitable for making a coat, hoodie, or a light coat. The ribbed pattern provides a good balance of stretch and structure, making it versatile for different garments.",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "- Breathable\n- Durable\n- Elastic\n- Firm\n- Glossy\n- Lightweight\n- Rough\n- Sheer\n- Smooth\n- Soft\n- Textured\n- Thick\n- Warm\n- Wrinkle-resistant",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "firm"
+            ],
+            "precision": 0.07142857142857142,
+            "recall": 1.0,
+            "f1": 0.13333333333333333
+          }
+        }
+      },
+      {
+        "fid": "0310",
+        "gt": {
+          "weave": "plain",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is rib.",
+            "pred": "rib",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a knit material with a ribbed texture. Based on the visible characteristics, it is likely to be a blend of materials. Given the ribbed structure and the slight sheen, it is most likely a blend of cotton and polyester (cottonpolyester). This combination is common for knit fabrics that provide both comfort and durability.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a knit fabric, which is commonly used for various types of clothing. Given the texture and appearance, it could be suitable for a knitwear garment such as a sweater or a hoodie.",
+            "pred": "hoodie",
+            "correct": false
+          },
+          "features": {
+            "response": "- Breathable\n- Durable\n- Elastic\n- Firm\n- Glossy\n- Lightweight\n- Rough\n- Sheer\n- Smooth\n- Soft\n- Textured\n- Thick\n- Warm\n- Wrinkle-resistant",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.07142857142857142,
+            "recall": 1.0,
+            "f1": 0.13333333333333333
+          }
+        }
+      },
+      {
+        "fid": "0317",
+        "gt": {
+          "weave": "knitted",
+          "material": "cottonpolyamide",
+          "usage": "dress",
+          "features": [
+            "thick"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The material of this fabric appears to be a blend of cotton and polyester. This is indicated by the texture and the way the fabric looks, which is typical of a cotton-polyester blend.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knitwear.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Thick\n- Warm\n- Rough\n- Textured\n\nThese features are typically associated with a heavy, durable fabric that is designed to provide warmth and a tactile experience.",
+            "pred": [
+              "durable",
+              "rough",
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "thick"
+            ],
+            "precision": 0.2,
+            "recall": 1.0,
+            "f1": 0.33333333333333337
+          }
+        }
+      },
+      {
+        "fid": "0320",
+        "gt": {
+          "weave": "rib",
+          "material": "cottonpolyester",
+          "usage": "knitwear",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is **jacquard**.",
+            "pred": "jacquard",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be a combination of cotton and polyester. The intricate lace pattern and the texture suggest it could be a cottonpolyester blend.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of lace, which is often used for decorative purposes. It is not typically used for functional clothing items like coats, dresses, or suits. However, it could be used for accessories such as scarves, hats, or as a decorative element in a shirt or top. Therefore, the most likely usage for this fabric is as a decorative element in a shirt or top.",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "- Breathable\n- Durable\n- Rough\n- Thick\n- Warm",
+            "pred": [
+              "breathable",
+              "durable",
+              "rough",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0401",
+        "gt": {
+          "weave": "twill",
+          "material": "wool",
+          "usage": "suit",
+          "features": [
+            "delicate"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": true
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a cottonpolyester blend. This is indicated by the texture and the way the fabric looks, which is typical of a blend of these materials.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a plaid pattern, which is commonly used for various types of clothing and accessories. Given the texture and appearance, it is likely to be used for a shirt or a coat. The plaid pattern is often associated with casual and semi-formal wear, making it suitable for shirts, jackets, or coats.",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0404",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterviscose",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be a blend of cotton and polyester. This is indicated by the texture and the slight sheen that is visible in the image.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a light-colored, textured material. Based on the texture and appearance, it is most likely used for a light coat or a jacket. The texture suggests it could provide some level of warmth and protection, making it suitable for outerwear.",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Breathable\n- Durable\n- Rough\n- Thick\n- Warm\n- Wrinkle-resistant\n\nThe fabric looks sturdy and has a textured appearance, which suggests it is durable and thick. The texture also indicates it is rough and warm, making it suitable for colder weather. The fabric appears to be wrinkle-resistant, as there are no visible wrinkles.",
+            "pred": [
+              "breathable",
+              "durable",
+              "rough",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0718",
+        "gt": {
+          "weave": "plain-knit",
+          "material": "polyesterspandex",
+          "usage": "knitwear",
+          "features": [
+            "elastic",
+            "soft",
+            "thick"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is **jacquard**.",
+            "pred": "jacquard",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a blend of materials. The texture and pattern suggest it could be a blend of cotton and polyester. Therefore, the most likely material is:\n\n**Cottonpolyester**",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a knitwear fabric with a pattern that could be suitable for a variety of garments. Given the texture and pattern, it could be used for a hoodie or a sweater. The pattern is bold and eye-catching, which is often desirable in casual or fashion-forward clothing items. Therefore, the most likely usage of this fabric is for a hoodie or knitwear.",
+            "pred": "hoodie",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- **Textured**: The surface has a distinct pattern of white and black spots.\n- **Soft**: The texture looks plush and comfortable.\n- **Thick**: The fabric appears to be quite thick, which is typical for materials designed to be warm.\n\nThe other features listed do not seem to apply to this fabric.",
+            "pred": [
+              "soft",
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "elastic",
+              "soft",
+              "thick"
+            ],
+            "precision": 0.5,
+            "recall": 0.6666666666666666,
+            "f1": 0.5714285714285715
+          }
+        }
+      },
+      {
+        "fid": "14",
+        "gt": {
+          "weave": "plain",
+          "material": "plastic",
+          "usage": "pencilcase",
+          "features": [
+            "transparent"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be polyester.",
+            "pred": "polyester",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "15",
+        "gt": {
+          "weave": "herringbone",
+          "material": "cotton",
+          "usage": "sportstrousers",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a type of woven material with a tight, consistent weave. Based on the visible characteristics, it is likely to be a blend of materials. Given the options provided, the most likely material is:\n\n**Cottonpolyester**\n\nThis combination is common for fabrics that offer a balance of breathability (from cotton) and durability (from polyester).",
+            "pred": "cotton",
+            "correct": true
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Rough\n- Thick\n- Warm\n- Wrinkle-resistant\n\nThese features are visible in the texture and appearance of the fabric.",
+            "pred": [
+              "rough",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3713",
+        "gt": {
+          "weave": "plain",
+          "material": "linencotton",
+          "usage": "shirt",
+          "features": [
+            "breathable",
+            "lightweight",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a blend of materials. The texture and appearance suggest it could be a blend of cotton and polyester. Therefore, the most likely material is:\n\n**Cottonpolyester**",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a woven material with a ribbed pattern, which is commonly used for knitwear. This type of fabric is often used in the construction of sweaters, cardigans, and other knit garments. Therefore, the most appropriate usage for this fabric is:\n\n**Knitwear**",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Rough\n- Thick\n- Textured\n\nThese features suggest that the fabric is not breathable, durable, elastic, firm, glossy, lightweight, smooth, soft, sheer, or wrinkle-resistant.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "breathable",
+              "lightweight",
+              "textured"
+            ],
+            "precision": 0.23076923076923078,
+            "recall": 1.0,
+            "f1": 0.375
+          }
+        }
+      },
+      {
+        "fid": "3731",
+        "gt": {
+          "weave": "plain-varied",
+          "material": "polyester",
+          "usage": "shirt",
+          "features": [
+            "linen-like",
+            "durable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be a blend of cotton and polyester. This is indicated by the woven pattern and the slight sheen that is typical of polyester fibers.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of denim or denim-like material. Denim is commonly used for making jeans, jackets, and other casual wear. Given the texture and appearance, it is most likely used for making jeans or similar casual clothing items. Therefore, the most appropriate usage from the given options is:\n\n- Jeans",
+            "pred": null,
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Rough\n- Thick\n- Warm\n- Wrinkle-resistant\n\nThese features are typically associated with denim or a similar type of fabric.",
+            "pred": [
+              "rough",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "durable"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3732",
+        "gt": {
+          "weave": "twill",
+          "material": "polyester",
+          "usage": "lining",
+          "features": [
+            "brushed",
+            "fluffy"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a type of woven material with a consistent, tight weave pattern. Based on the visible characteristics, it is likely to be a blend of materials. Given the options provided, the most likely materials are:\n\n- Cottonpolyamide\n- Cottonpolyester\n- Cottonpolyesterspandex\n\nWithout more specific information, it's difficult to determine the exact blend, but these are common combinations that could produce a fabric with a similar appearance.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of woven material with a dense, textured pattern. Based on the appearance, it could be suitable for a variety of uses, including:\n\n- **Suit**: The dense texture and uniform appearance suggest it could be used for a suit, providing a structured and formal look.\n- **Coat**: The material seems sturdy and could be used for a coat, offering warmth and durability.\n- **Dress**: The texture could add interest to a dress, providing",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "3733",
+        "gt": {
+          "weave": "plain",
+          "material": "polyestermemory",
+          "usage": "fashion",
+          "features": [
+            "color-spun",
+            "dye-first"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": true
+          }
+        }
+      },
+      {
+        "fid": "3741",
+        "gt": {
+          "weave": "warp-knitted",
+          "material": "polyester",
+          "usage": "skirt",
+          "features": [
+            "smooth",
+            "drapey",
+            "breathable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a blend of materials. The texture and appearance suggest it could be a blend of cotton and polyester. Therefore, the most likely material is:\n\n**Cottonpolyester**",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a woven material with a fine, tight weave. Based on the texture and appearance, it could be suitable for a variety of uses, including a shirt or a light coat. The fine weave suggests it might be used for clothing items that require a certain level of breathability and comfort. Therefore, the most likely usage of this fabric is:\n\n- Shirt",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Breathable\n- Durable\n- Elastic\n- Firm\n- Glossy\n- Lightweight\n- Rough\n- Sheer\n- Smooth\n- Textured\n- Thick\n- Warm\n- Wrinkle-resistant\n\nThe fabric looks like it has a textured surface and appears to be durable and firm, which suggests it might be suitable for clothing or upholstery.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "smooth",
+              "breathable"
+            ],
+            "precision": 0.15384615384615385,
+            "recall": 1.0,
+            "f1": 0.2666666666666667
+          }
+        }
+      },
+      {
+        "fid": "3744",
+        "gt": {
+          "weave": "hexagon",
+          "material": "polyamide",
+          "usage": "shirt",
+          "features": [
+            "gold-printed",
+            "sheer",
+            "floral"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The material of this fabric appears to be a blend of cotton and polyester. This is indicated by the texture and the presence of synthetic fibers that are characteristic of polyester.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a light, textured material with a floral pattern. Given its appearance, it is likely to be used for a casual or decorative item such as a skirt, dress, or top. The floral pattern and light texture suggest it is not suitable for heavy or formal wear like a coat, suit, or knitwear. Therefore, the most appropriate usage options are:\n\n- Dress\n- Skirt\n- Top\n\nThese options align with the casual and decorative nature of the",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Textured\n- Soft\n- Smooth\n\nThe fabric has a textured appearance due to the visible weave pattern, it seems soft and smooth to the touch, and the overall look suggests it is not glossy, rough, or sheer. It does not appear to be breathable, durable, elastic, firm, glossy, lightweight, thick, warm, or wrinkle-resistant based on the image alone.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "sheer"
+            ],
+            "precision": 0.07142857142857142,
+            "recall": 1.0,
+            "f1": 0.13333333333333333
+          }
+        }
+      },
+      {
+        "fid": "3746",
+        "gt": {
+          "weave": "terry",
+          "material": "cotton",
+          "usage": "hoodie",
+          "features": [
+            "elastic",
+            "warm",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is **twill**.",
+            "pred": "twill",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a cotton material. The texture and appearance are consistent with cotton, which typically has a soft, slightly fuzzy surface.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a knitwear.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Textured\n- Soft\n- Thick\n- Warm\n\nThese features are evident from the visible texture and the way the fabric looks and feels.",
+            "pred": [
+              "soft",
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "elastic",
+              "warm",
+              "textured"
+            ],
+            "precision": 0.5,
+            "recall": 0.6666666666666666,
+            "f1": 0.5714285714285715
+          }
+        }
+      },
+      {
+        "fid": "3749",
+        "gt": {
+          "weave": "weft",
+          "material": "polyestercotton",
+          "usage": "t-shirt",
+          "features": [
+            "moisture-wicking",
+            "lightweight",
+            "soft"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The fabric in the picture appears to be a cottonpolyester blend. This is indicated by the slight sheen and the texture, which is typical of a polyester component.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a knitwear fabric. It has a ribbed texture, which is commonly used in knitwear items such as sweaters, cardigans, and other knit garments.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- **Smooth**: The surface looks even and without noticeable texture.\n- **Soft**: The fabric feels soft to the touch.\n- **Lightweight**: The fabric appears to be thin and not heavy.\n- **Wrinkle-resistant**: The fabric does not show any visible wrinkles.\n\nThe other features such as breathable, durable, elastic, firm, glossy, rough, sheer, textured, thick, and warm are not evident from the image.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "lightweight",
+              "soft"
+            ],
+            "precision": 0.14285714285714285,
+            "recall": 1.0,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "7104",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyester",
+          "usage": "fashion-clothing",
+          "features": [
+            "glossy",
+            "gorgeous",
+            "visual-striking"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is **jacquard**.",
+            "pred": "jacquard",
+            "correct": true
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a blend of materials. The shiny, reflective threads suggest the presence of synthetic fibers such as polyester or polyamide. The textured, woven pattern also indicates the presence of natural fibers like cotton or wool. Given these observations, the most likely material composition is:\n\n**Cottonpolyamide**\n\nThis combination allows for the blend of the softness and breathability of cotton with the shine and durability of polyamide.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Glossy\n- Textured\n- Thick\n- Warm\n\nThe fabric has a shiny, glossy appearance and a textured surface, indicating it is thick and likely warm. It does not appear to be breathable, durable, elastic, firm, lightweight, smooth, soft, sheer, or wrinkle-resistant.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "glossy"
+            ],
+            "precision": 0.07692307692307693,
+            "recall": 1.0,
+            "f1": 0.14285714285714288
+          }
+        }
+      },
+      {
+        "fid": "7115",
+        "gt": {
+          "weave": "double-layer",
+          "material": "linen-silk-cotton-spandex",
+          "usage": "light-coat",
+          "features": [
+            "double-crepe",
+            "textured",
+            "elegant"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a light, sheer material with a tie-dye pattern. Given its appearance, it is most likely intended for use in a garment that requires breathability and a certain level of transparency. Among the options provided, the most suitable usage for this fabric would be for a **shirt** or a **top**. These types of garments often use lightweight, sheer fabrics to provide comfort and a stylish look.",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- Breathable\n- Sheer\n- Soft\n- Textured\n\nThese features are evident from the visible texture and slight translucency of the fabric.",
+            "pred": [
+              "breathable",
+              "sheer",
+              "soft",
+              "textured"
+            ],
+            "gt": [
+              "textured"
+            ],
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1": 0.4
+          }
+        }
+      },
+      {
+        "fid": "7117",
+        "gt": {
+          "weave": "jacquard",
+          "material": "viscose-nylon",
+          "usage": "top",
+          "features": [
+            "ancient-jacquard",
+            "breathable",
+            "wrinkle-resistant"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a heavy, textured material, which is typically used for coats or suits. The texture and thickness suggest it is designed to provide warmth and durability, making it suitable for outerwear or formal wear. Therefore, the most appropriate usage for this fabric is:\n\n- Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Rough\n- Thick\n- Textured\n\nThese features suggest that the fabric is not breathable, durable, elastic, firm, glossy, lightweight, smooth, soft, or wrinkle-resistant.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "breathable",
+              "wrinkle-resistant"
+            ],
+            "precision": 0.16666666666666666,
+            "recall": 1.0,
+            "f1": 0.2857142857142857
+          }
+        }
+      },
+      {
+        "fid": "7119",
+        "gt": {
+          "weave": "jacquard",
+          "material": "cotton-polyester-spandex",
+          "usage": "coat",
+          "features": [
+            "three-dimensional-textured",
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is **jacquard**.",
+            "pred": "jacquard",
+            "correct": true
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knitwear.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "- Breathable\n- Durable\n- Elastic\n- Firm\n- Glossy\n- Lightweight\n- Rough\n- Sheer\n- Smooth\n- Soft\n- Textured\n- Thick\n- Warm\n- Wrinkle-resistant",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.07142857142857142,
+            "recall": 1.0,
+            "f1": 0.13333333333333333
+          }
+        }
+      }
+    ],
+    "accuracy": {
+      "weave": 0.2222222222222222,
+      "material": 0.16666666666666666,
+      "usage": 0.11764705882352941
+    },
+    "avg_accuracy": 0.16884531590413943,
+    "feature_f1": 0.2230820105820106,
+    "correct": {
+      "weave": 4,
+      "material": 3,
+      "usage": 2
+    },
+    "total": {
+      "weave": 18,
+      "material": 18,
+      "usage": 17
+    },
+    "feature_f1_sum": 4.015476190476191,
+    "feature_count": 18
+  },
+  "test": {
+    "samples": [
+      {
+        "fid": "01",
+        "gt": {
+          "weave": "plain",
+          "material": "linen",
+          "usage": "curtain",
+          "features": [
+            "hard",
+            "rough"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": true
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Breathable\n- Durable\n- Rough\n- Thick\n- Warm\n- Wrinkle-resistant\n\nThe fabric looks dense and thick, which suggests it is durable and warm. The texture appears rough, indicating it is not smooth or sheer. It does not appear to be glossy, elastic, firm, or lightweight.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "rough"
+            ],
+            "precision": 0.08333333333333333,
+            "recall": 1.0,
+            "f1": 0.15384615384615385
+          }
+        }
+      },
+      {
+        "fid": "03",
+        "gt": {
+          "weave": "herringbone",
+          "material": "wool",
+          "usage": "hoodie",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain-knit.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be a blend of cotton and polyester. This is indicated by the texture and appearance, which is typical of a cotton-polyester blend.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knitwear. It has a dense, textured appearance that is typical of fabrics used in sweaters, hoodies, and other knit garments. Therefore, the most appropriate usage for this fabric is:\n\n- Knitwear",
+            "pred": "hoodie",
+            "correct": true
+          },
+          "features": {
+            "response": "- Breathable\n- Durable\n- Elastic\n- Firm\n- Glossy\n- Lightweight\n- Rough\n- Sheer\n- Smooth\n- Soft\n- Textured\n- Thick\n- Warm\n- Wrinkle-resistant",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.07142857142857142,
+            "recall": 1.0,
+            "f1": 0.13333333333333333
+          }
+        }
+      },
+      {
+        "fid": "0304",
+        "gt": {
+          "weave": "plain",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "firm"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is **twill**.",
+            "pred": "twill",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be a blend of cotton and polyester. The texture and appearance suggest a combination of the softness of cotton and the durability of polyester.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knitwear. The texture and pattern suggest it could be used for a sweater or a knit top.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Textured\n- Thick\n- Warm\n- Rough\n\nThe fabric does not appear to be breathable, durable, elastic, firm, glossy, lightweight, smooth, soft, or wrinkle-resistant.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "firm"
+            ],
+            "precision": 0.07692307692307693,
+            "recall": 1.0,
+            "f1": 0.14285714285714288
+          }
+        }
+      },
+      {
+        "fid": "0308",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is **jacquard**.",
+            "pred": "jacquard",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a blend of materials. The texture and pattern suggest it could be a blend of cotton and polyester. Therefore, the most likely material is:\n\n**Cottonpolyester**",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a knitwear.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- **Textured**: The pattern suggests a textured surface.\n- **Soft**: The fabric looks soft to the touch.\n- **Thick**: The fabric appears to be thick, as indicated by the dense pattern and the way it holds its shape.\n- **Warm**: The thick and textured nature suggests it would be warm.\n- **Durable**: The dense pattern and thickness suggest it could be durable.\n- **Breathable**: The texture",
+            "pred": [
+              "breathable",
+              "durable",
+              "soft",
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.16666666666666666,
+            "recall": 1.0,
+            "f1": 0.2857142857142857
+          }
+        }
+      },
+      {
+        "fid": "0410",
+        "gt": {
+          "weave": "plain",
+          "material": "viscosepolyesterspandex",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a woven material with a diamond pattern. This type of fabric is commonly used for various garments and accessories. Based on the pattern and texture, it could be suitable for:\n\n- **Suit**: The structured nature of the fabric makes it a good choice for suits.\n- **Coat**: The woven pattern can provide a good balance of warmth and style for coats.\n- **Dress**: The pattern can add a unique design element to a dress.\n- **Kn",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Textured\n- Rough\n- Thick\n\nThese features are evident from the visible texture and the thickness of the fabric.",
+            "pred": [
+              "rough",
+              "textured",
+              "thick"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0412",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyesterspandex",
+          "usage": "dress",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is rib.",
+            "pred": "rib",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a type of knit fabric with a ribbed pattern. Based on the visible characteristics, it is likely to be made of a blend of materials. Given the ribbed structure and the smooth, slightly stretchy appearance, it is most likely a blend of cotton and polyester. Therefore, the most accurate choice from the options provided would be:\n\n**Cottonpolyester**",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knitwear.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Textured\n- Thick\n- Warm\n- Wrinkle-resistant\n\nThese features are evident from the visible texture and the way the fabric appears to hold its shape without wrinkles.",
+            "pred": [
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0414",
+        "gt": {
+          "weave": "knitted",
+          "material": "cottonpolyesterspandex",
+          "usage": "knitwear",
+          "features": [
+            "three-dimensional"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The material of this fabric appears to be a blend of cotton and polyester. This is indicated by the texture and the slight sheen that is visible in the image.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a heavy, textured material, which is commonly used for coats, suits, or heavy outerwear. Given the texture and appearance, it is most likely intended for use in a coat or suit.",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0416",
+        "gt": {
+          "weave": "twill",
+          "material": "tencelcottonspandex",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a light-colored, possibly cotton or cotton blend, with a smooth texture. Based on these characteristics, it is most likely used for a shirt.",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- Smooth\n- Wrinkle-resistant\n\nThe fabric looks to be smooth and does not show any signs of wrinkles, indicating it is likely wrinkle-resistant.",
+            "pred": [
+              "smooth",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0704",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyestercotton",
+          "usage": "top",
+          "features": [
+            "gold-lined",
+            "lace"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is **jacquard**.",
+            "pred": "jacquard",
+            "correct": true
+          },
+          "material": {
+            "response": "The material of this fabric appears to be a combination of polyester and cotton. The intricate design and the presence of glitter suggest it might be a polyester-cotton blend, often used for decorative or fashion fabrics.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a type of lace with intricate designs and embellishments. Based on the style and the presence of intricate patterns, this fabric is most likely suitable for use in dresses, skirts, or tops. The detailed and delicate nature of the lace makes it less appropriate for heavier garments like coats or suits, and it is not typically used for knitwear or linings. Therefore, the most fitting options are:\n\n- Dress\n- Skirt\n- Top\n\nThese uses would",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0712",
+        "gt": {
+          "weave": "plain-knit",
+          "material": "polyester",
+          "usage": "t-shirt",
+          "features": [
+            "soft",
+            "smooth"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be **cottonpolyester**.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a dark, textured material that could be used for various garments. Given its appearance, it is likely suitable for use in a suit, as suits often require a sturdy and textured fabric to maintain their shape and structure.",
+            "pred": "suit",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- **Thick**: The texture looks dense and heavy.\n- **Warm**: The thickness suggests it might be warm.\n- **Rough**: The surface appears coarse and uneven.\n- **Textured**: The fabric has a noticeable texture.\n\nNone of the other features (breathable, durable, elastic, firm, glossy, lightweight, smooth, soft, sheer, wrinkle-resistant) are clearly indicated by the image.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft",
+              "smooth"
+            ],
+            "precision": 0.14285714285714285,
+            "recall": 1.0,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "0713",
+        "gt": {
+          "weave": "terry",
+          "material": "cottonpolyester",
+          "usage": "thermal-wear",
+          "features": [
+            "soft",
+            "thick"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be a blend of cotton and polyester. This is indicated by the texture and the slight sheen that is visible in the image.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Textured\n- Thick\n- Warm\n\nThese features are typically associated with a woven or knitted fabric that is designed to provide warmth and a certain level of durability.",
+            "pred": [
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "soft",
+              "thick"
+            ],
+            "precision": 0.3333333333333333,
+            "recall": 0.5,
+            "f1": 0.4
+          }
+        }
+      },
+      {
+        "fid": "0715",
+        "gt": {
+          "weave": "rib",
+          "material": "bamboocharcoalspandexspolyamide",
+          "usage": "base-layer",
+          "features": [
+            "elastic",
+            "soft",
+            "smooth"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "features": {
+            "response": "- Breathable\n- Durable\n- Elastic\n- Firm\n- Glossy\n- Lightweight\n- Rough\n- Sheer\n- Smooth\n- Soft\n- Textured\n- Thick\n- Warm\n- Wrinkle-resistant",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "elastic",
+              "soft",
+              "smooth"
+            ],
+            "precision": 0.21428571428571427,
+            "recall": 1.0,
+            "f1": 0.35294117647058826
+          }
+        }
+      },
+      {
+        "fid": "09",
+        "gt": {
+          "weave": "bubble",
+          "material": "plastic",
+          "usage": "airbubblefilm",
+          "features": [
+            "light"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The material of this fabric is plastic.",
+            "pred": "plastic",
+            "correct": true
+          }
+        }
+      },
+      {
+        "fid": "12",
+        "gt": {
+          "weave": "diamond",
+          "material": "nylon",
+          "usage": "straps",
+          "features": [
+            "hard"
+          ]
+        },
+        "pred": {}
+      },
+      {
+        "fid": "3701",
+        "gt": {
+          "weave": "crocodileembossed",
+          "material": "polyesterpu",
+          "usage": "coat",
+          "features": [
+            "thick",
+            "warm",
+            "durable"
+          ]
+        },
+        "pred": {
+          "usage": {
+            "response": "The fabric in the picture appears to have a textured, possibly reptile-like pattern. This type of fabric is often used for coats, jackets, or other outerwear due to its durability and distinctive appearance. Therefore, the most appropriate usage for this fabric would be:\n\n- Coat",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Textured\n- Glossy\n- Rough\n- Thick\n\nThese features suggest that the fabric is not breathable, durable, elastic, firm, lightweight, smooth, soft, sheer, or wrinkle-resistant.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "thick",
+              "warm",
+              "durable"
+            ],
+            "precision": 0.15384615384615385,
+            "recall": 0.6666666666666666,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "3705",
+        "gt": {
+          "weave": "stripedcheck",
+          "material": "polyesterviscose",
+          "usage": "suit",
+          "features": [
+            "moisture-wicking",
+            "wrinkle-resistant"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The material of this fabric appears to be a blend of polyester and cotton. This is indicated by the texture and the slight sheen that is often associated with polyester, combined with the softness and absorbency that is characteristic of cotton.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a type of knitwear.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- **Thick**: The texture looks dense and heavy.\n- **Soft**: The surface feels smooth and comfortable.\n- **Warm**: The fabric looks like it would provide warmth.\n- **Textured**: The surface has a noticeable texture.\n\nThe other features such as breathable, durable, elastic, firm, glossy, lightweight, rough, sheer, smooth, and wrinkle-resistant cannot be determined from the image alone.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "wrinkle-resistant"
+            ],
+            "precision": 0.07142857142857142,
+            "recall": 1.0,
+            "f1": 0.13333333333333333
+          }
+        }
+      },
+      {
+        "fid": "3714",
+        "gt": {
+          "weave": "double-layer",
+          "material": "cotton",
+          "usage": "shirt",
+          "features": [
+            "lightweight",
+            "breathable",
+            "stable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric appears to be cotton.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a light-colored, possibly cotton or cotton blend, with a plain weave and a smooth texture. Based on these characteristics, it is most likely used for a casual or semi-casual garment. The options that best fit this description are:\n\n- t-shirt\n- shirt\n- hoodie\n\nThese types of garments typically use similar fabrics for their comfort and ease of wear.",
+            "pred": "hoodie",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- **Smooth**: The surface looks even and without noticeable texture.\n- **Lightweight**: The fabric does not appear heavy or dense.\n- **Soft**: The fabric feels soft to the touch.\n- **Breathable**: The fabric looks like it would allow air to pass through, suggesting breathability.\n- **Durable**: The fabric appears to be sturdy and capable of withstanding wear and tear.\n- **Wrinkle-resistant**: The",
+            "pred": [
+              "breathable",
+              "durable",
+              "lightweight",
+              "rough",
+              "smooth",
+              "soft",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "lightweight",
+              "breathable"
+            ],
+            "precision": 0.2857142857142857,
+            "recall": 1.0,
+            "f1": 0.4444444444444445
+          }
+        }
+      },
+      {
+        "fid": "3720",
+        "gt": {
+          "weave": "plain",
+          "material": "cotton",
+          "usage": "shirt",
+          "features": [
+            "soft",
+            "shiny",
+            "breathable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a cottonpolyester blend. This is indicated by the smooth texture and the slight sheen, which is characteristic of polyester fibers. The pattern is also consistent with the types of prints that can be achieved with a cottonpolyester blend.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "The fabric in the picture has a zigzag pattern, which is often used for casual and stylish clothing items. Based on the pattern and the type of fabric, it is likely suitable for use in a t-shirt or a top.",
+            "pred": "shirt",
+            "correct": true
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to be:\n\n- **Sheer**: The fabric is translucent, allowing light to pass through.\n- **Soft**: The fabric looks smooth and gentle to the touch.\n- **Textured**: The zigzag pattern adds a textured appearance to the fabric.\n\nThe other features such as breathable, durable, elastic, firm, glossy, lightweight, rough, smooth, thick, warm, and wrinkle-resistant cannot be determined from the image alone.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft",
+              "breathable"
+            ],
+            "precision": 0.14285714285714285,
+            "recall": 1.0,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "3740",
+        "gt": {
+          "weave": "plain",
+          "material": "polyester",
+          "usage": "lining",
+          "features": [
+            "printed",
+            "lightweight"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": true
+          },
+          "material": {
+            "response": "The material of this fabric appears to be a blend of polyester and cotton. The zebra stripe pattern and the texture suggest it could be a polyester-cotton blend.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image has a zebra stripe pattern with a light purple and white color scheme. This type of fabric is often used for casual wear, such as t-shirts, tops, or dresses. The zebra stripe pattern adds a fun and playful element to the garment, making it suitable for casual or fashion-forward clothing items.",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "- Breathable\n- Durable\n- Elastic\n- Glossy\n- Lightweight\n- Smooth\n- Textured\n- Thick\n- Warm\n- Wrinkle-resistant",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "glossy",
+              "lightweight",
+              "smooth",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "lightweight"
+            ],
+            "precision": 0.1,
+            "recall": 1.0,
+            "f1": 0.18181818181818182
+          }
+        }
+      },
+      {
+        "fid": "3747",
+        "gt": {
+          "weave": "warp-knitted",
+          "material": "cottonpolyamide",
+          "usage": "skirt",
+          "features": [
+            "three-dimensional",
+            "sheer",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the picture appears to be a lace material. Based on the visible characteristics, it is likely to be made of a combination of materials. Given the intricate pattern and the way it is constructed, it is most likely a blend of cotton and polyester. Therefore, the most accurate choice would be:\n\n**Cottonpolyester**",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the picture appears to be a type of lace or openwork fabric, which is typically used for making dresses, skirts, or tops. The delicate and intricate pattern suggests it is not suitable for heavier garments like coats, suits, or linings. Therefore, the most appropriate usage for this fabric would be:\n\n- Dress\n- Skirt\n- Top",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Breathable\n- Soft\n- Textured\n\nThe fabric looks lightweight and has a textured appearance, which suggests it is breathable and soft. The texture also indicates that it is not smooth or glossy.",
+            "pred": [
+              "breathable",
+              "glossy",
+              "lightweight",
+              "smooth",
+              "soft",
+              "textured"
+            ],
+            "gt": [
+              "sheer",
+              "textured"
+            ],
+            "precision": 0.16666666666666666,
+            "recall": 0.5,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "7109",
+        "gt": {
+          "weave": "jacquard",
+          "material": "bamboo-cotton",
+          "usage": "shirt",
+          "features": [
+            "geometric",
+            "glossy",
+            "matte"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of woven material with a quilted pattern. This type of fabric is commonly used for lining, as it provides insulation and comfort. Therefore, the most appropriate usage for this fabric is:\n\n**lining**",
+            "pred": "lining",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Textured\n- Rough\n- Thick\n\nThese features suggest that the fabric is not breathable, durable, elastic, firm, glossy, lightweight, smooth, soft, or wrinkle-resistant.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "glossy"
+            ],
+            "precision": 0.08333333333333333,
+            "recall": 1.0,
+            "f1": 0.15384615384615385
+          }
+        }
+      },
+      {
+        "fid": "7114",
+        "gt": {
+          "weave": "plain-varied",
+          "material": "linen-cotton",
+          "usage": "light-coat",
+          "features": [
+            "plain",
+            "varied",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is twill.",
+            "pred": "twill",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a woven material with a sturdy, textured pattern. This type of fabric is commonly used for items that require durability and a certain level of structure, such as coats, suits, or jackets. Therefore, the most likely usage of this fabric is for a coat or a suit.",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Based on the image, the fabric appears to have the following features:\n\n- Breathable\n- Durable\n- Rough\n- Thick\n- Warm\n- Wrinkle-resistant\n\nThe fabric looks sturdy and has a textured appearance, which suggests it is durable and thick. The texture also indicates it is breathable and warm. The absence of glossiness or sheerness suggests it is not glossy or sheer. The rough texture and lack of stretch suggest it is not elastic or smooth.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "glossy",
+              "rough",
+              "sheer",
+              "smooth",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "textured"
+            ],
+            "precision": 0.09090909090909091,
+            "recall": 1.0,
+            "f1": 0.16666666666666669
+          }
+        }
+      }
+    ],
+    "accuracy": {
+      "weave": 0.17647058823529413,
+      "material": 0.21428571428571427,
+      "usage": 0.23529411764705882
+    },
+    "avg_accuracy": 0.20868347338935575,
+    "feature_f1": 0.1971556040183491,
+    "correct": {
+      "weave": 3,
+      "material": 3,
+      "usage": 4
+    },
+    "total": {
+      "weave": 17,
+      "material": 14,
+      "usage": 17
+    },
+    "feature_f1_sum": 3.548800872330284,
+    "feature_count": 18
+  }
+}

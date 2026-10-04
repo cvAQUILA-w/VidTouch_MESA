@@ -1,0 +1,4 @@
+_base_: simple_matched.yaml
+
+split:
+  file: splits/rebuttal_sensitivity_d.json

@@ -1,0 +1,4 @@
+_base_: ../mesa.yaml
+
+split:
+  file: splits/fabric_common_v2_lowshot25.json

@@ -1,0 +1,198 @@
+{
+  "aggregation": "counts across all supplied seed-level Test predictions",
+  "valid_prediction_rows": {
+    "weave": 51,
+    "features": 54,
+    "material": 48,
+    "usage": 51
+  },
+  "top_confusions": {
+    "weave": [
+      {
+        "target": "plain",
+        "prediction": "jacquard",
+        "count": 4
+      },
+      {
+        "target": "jacquard",
+        "prediction": "twill",
+        "count": 3
+      },
+      {
+        "target": "plain-knit",
+        "prediction": "terry",
+        "count": 3
+      },
+      {
+        "target": "rib",
+        "prediction": "plain-knit",
+        "count": 3
+      },
+      {
+        "target": "double-layer",
+        "prediction": "twill",
+        "count": 3
+      },
+      {
+        "target": "warp-knitted",
+        "prediction": "jacquard",
+        "count": 3
+      },
+      {
+        "target": "herringbone",
+        "prediction": "twill",
+        "count": 2
+      },
+      {
+        "target": "plain",
+        "prediction": "twill",
+        "count": 2
+      },
+      {
+        "target": "plain-varied",
+        "prediction": "jacquard",
+        "count": 1
+      },
+      {
+        "target": "terry",
+        "prediction": "jacquard",
+        "count": 1
+      }
+    ],
+    "material": [
+      {
+        "target": "polyesterpolyamide",
+        "prediction": "polyester",
+        "count": 3
+      },
+      {
+        "target": "polyesterspandex",
+        "prediction": "cottonpolyamide",
+        "count": 3
+      },
+      {
+        "target": "polyestercotton",
+        "prediction": "polyester",
+        "count": 3
+      },
+      {
+        "target": "polyamide",
+        "prediction": "cotton",
+        "count": 3
+      },
+      {
+        "target": "cottonpolyamide",
+        "prediction": "polyester",
+        "count": 3
+      },
+      {
+        "target": "linencotton",
+        "prediction": "cotton",
+        "count": 3
+      },
+      {
+        "target": "cottonpolyesterspandex",
+        "prediction": "cottonpolyamide",
+        "count": 2
+      },
+      {
+        "target": "polyester",
+        "prediction": "linencotton",
+        "count": 2
+      },
+      {
+        "target": "polyesterviscose",
+        "prediction": "linencotton",
+        "count": 2
+      },
+      {
+        "target": "polyester",
+        "prediction": "cotton",
+        "count": 2
+      }
+    ],
+    "usage": [
+      {
+        "target": "dress",
+        "prediction": "coat",
+        "count": 3
+      },
+      {
+        "target": "knitwear",
+        "prediction": "coat",
+        "count": 3
+      },
+      {
+        "target": "top",
+        "prediction": "dress",
+        "count": 3
+      },
+      {
+        "target": "coat",
+        "prediction": "shirt",
+        "count": 3
+      },
+      {
+        "target": "lining",
+        "prediction": "shirt",
+        "count": 3
+      },
+      {
+        "target": "skirt",
+        "prediction": "dress",
+        "count": 3
+      },
+      {
+        "target": "hoodie",
+        "prediction": "coat",
+        "count": 2
+      },
+      {
+        "target": "suit",
+        "prediction": "coat",
+        "count": 2
+      },
+      {
+        "target": "light-coat",
+        "prediction": "top",
+        "count": 2
+      },
+      {
+        "target": "shirt",
+        "prediction": "coat",
+        "count": 1
+      }
+    ]
+  },
+  "feature_false_positives": {
+    "breathable": 14,
+    "lightweight": 12,
+    "textured": 12,
+    "smooth": 10,
+    "elastic": 7,
+    "soft": 4,
+    "sheer": 3,
+    "firm": 3,
+    "warm": 2,
+    "glossy": 2,
+    "thick": 1,
+    "wrinkle-resistant": 1,
+    "durable": 1
+  },
+  "feature_false_negatives": {
+    "thick": 6,
+    "soft": 5,
+    "lightweight": 4,
+    "rough": 3,
+    "durable": 3,
+    "wrinkle-resistant": 3,
+    "sheer": 3,
+    "elastic": 2,
+    "smooth": 2,
+    "warm": 2,
+    "textured": 2,
+    "firm": 1,
+    "breathable": 1,
+    "glossy": 1
+  }
+}

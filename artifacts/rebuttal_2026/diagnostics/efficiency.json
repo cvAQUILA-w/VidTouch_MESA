@@ -1,0 +1,33 @@
+{
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "torch": "2.8.0+cu128",
+  "warmup": 10,
+  "timed_repeats": 50,
+  "scope": "model forward only; excludes media decoding and host-to-device transfer",
+  "results": {
+    "mesa": {
+      "total_parameters": 60359570,
+      "trainable_parameters": 6912722,
+      "model_only_latency_ms_per_fabric": 14.189634211361408,
+      "throughput_fabrics_per_sec_batch1": 70.47398016781267,
+      "peak_cuda_memory_mib": 397.92578125,
+      "evidence": {
+        "rgb_views": 2,
+        "tactile_views": 2,
+        "frames_per_tactile_view": 12
+      }
+    },
+    "matched_simple": {
+      "total_parameters": 59334642,
+      "trainable_parameters": 5887794,
+      "model_only_latency_ms_per_fabric": 13.755269199609756,
+      "throughput_fabrics_per_sec_batch1": 72.69941325673004,
+      "peak_cuda_memory_mib": 392.49560546875,
+      "evidence": {
+        "rgb_views": 2,
+        "tactile_views": 2,
+        "frames_per_tactile_view": 12
+      }
+    }
+  }
+}

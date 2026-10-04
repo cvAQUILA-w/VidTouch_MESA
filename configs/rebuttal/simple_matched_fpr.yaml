@@ -1,0 +1,5 @@
+_base_: simple_matched.yaml
+
+# Adds only Fabric-aware Pair Recombination to the strict simple control.
+data:
+  pair_recombination: true

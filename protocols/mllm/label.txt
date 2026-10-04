@@ -1,0 +1,145 @@
+#number weave material usage otherinfo#
+00 oxford cotton laptopbag hard rough
+01 plain linen curtain hard rough
+03 herringbone wool hoodie soft
+04 corduroy wool hoodie warm
+05 plain cotton gloves light
+06 plain cotton gauzetowel rough
+07 twill paper indentedboard tough
+08 herringbone cotton t-shirt dedicated
+09 bubble plastic airbubblefilm light
+10 bubble plastic airbubblefilm light
+11 vertical wood woodboard hard
+12 diamond polyamide straps hard
+13 plain polyamidecotton umbrella dedicated
+14 plain plastic pencilcase transparent
+15 herringbone cotton sportstrousers soft
+0401 twill wool suit delicate
+0402 twill cottonpolyamide coat three-proof
+0403 twill cottonrecycledcottonspandex coat elastic
+0404 twill polyesterviscose coat elastic
+0405 twill cottonpolyesterpolyamide coat smooth
+0406 woven sph trenchcoat elastic
+0407 twill viscosepolyester coat soft
+0408 woven organicwoolcupropolyester suit wrinkle-resistant
+0409 plain recycledpolyestercotton jacket firm
+0410 plain viscosepolyesterspandex coat elastic
+0411 plain cottonpolyamide coat elastic
+0412 jacquard polyesterspandex dress elastic
+0413 twill polyesterviscosetencel jet firm
+0414 knitted cottonpolyesterspandex knitwear three-dimensional
+0415 satin cottonthermolytelycra dress warm
+0416 twill tencelcottonspandex coat elastic
+0418 double-layer solutiondyedpolyestersolutiondyedviscosespandex suit elastic
+0419 plain organiccotton suit breathable
+0420 varied cottonmodalviscosespan jacket elastic
+0301 twill polyesterpolyamide coat three-proof
+0302 plain polyesterpolyamide coat three-proof
+0303 plain polyesterpolyamide coat firm
+0304 plain polyesterpolyamide coat firm
+0305 plain polyesterpolyamide coat firm
+0306 twill polyesterpolyamide coat firm
+0307 plain polyesterpolyamide coat soft
+0308 twill polyesterpolyamide coat soft
+0309 plain polyesterpolyamide coat soft
+0310 plain polyesterpolyamide coat soft
+0311 twill tencelmodalpolyester coat antibacterial
+0312 jacquard viscosedralonspandex knitwear elastic
+0313 mesh polyamidespandex t-shirt elastic
+0314 twill polyesterviscosespandex coat elastic
+0315 composite tpu coat three-proof
+0316 twill polyester coat quick-drying
+0317 knitted cottonpolyamide dress thick
+0318 jacquard polyesterviscosedralon knitwear warm
+0319 twill merinowoolvolcanicrockfiberpolyester coat thick
+0320 rib cottonpolyester knitwear elastic
+0701 rib recycledpolyesteracrylicpolyamide knitwear elastic soft textured
+0702 jacquard polyestercotton knitwear thick three-dimensional
+0703 jacquard polyester dress lightweight openwork
+0704 jacquard polyestercotton top gold-lined lace
+0706 jacquard polyamidepolyester dress hollow-out flowery
+0707 double-knit polyesterspandex underwear elastic soft thick
+0708 pique cottonpolyesterspandex t-shirt elastic soft thin
+0709 air-layer polyamidepolyesterspandex yoga-wear elastic soft thin
+0710 terry cottoncdp t-shirt soft smooth
+0711 mesh polyamidepolyesterspandex sport-t-shirt elastic soft thin
+0712 plain-knit polyester t-shirt soft smooth
+0713 terry cottonpolyester thermal-wear soft thick
+0714 plain-knit polyamidespandex t-shirt elastic smooth dry
+0715 rib bamboocharcoalspandexspolyamide base-layer elastic soft smooth
+0716 plain-knit cotton t-shirt soft smooth
+0717 jacquard cottonpolyester t-shirt elastic textured
+0718 plain-knit polyesterspandex knitwear elastic soft thick
+0719 jacquard cotton knitwear textured breathable
+0720 rib tencelacetate base-layer elastic soft smooth
+0721 three-layer polyester coat lightweight warm
+3701 crocodileembossed polyesterpu coat thick warm durable
+3702 twill wool uniform fluffy rough
+3703 twill woolpolyester coat textured speckled
+3704 jacquard woolpolyester coat textured classic
+3705 stripedcheck polyesterviscose suit moisture-wicking wrinkle-resistant
+3706 plain silk shirt delicate transparent breathable
+3707 plain hemp summercoat health-care uv-resistant
+3708 plain linen home-textile breathable meshy rough
+3709 3/1twill linencotton pants washable eco-friendly breathable
+3710 plain cotton home striped textured
+3711 jacquard cottonlinen coat breathable natural
+3712 plain jute home-decoration thick rustic waterproof
+3713 plain linencotton shirt breathable lightweight textured
+3714 double-layer cotton shirt lightweight breathable stable
+3715 plain cotton bedsheet gradient-stripe breathable
+3716 plain-varied cotton clothing durable firm
+3717 twill cotton home-decoration breathable soft-fiber elastic
+3718 twill cotton shirt checkered color-woven
+3719 satin cotton bedsheet soft shiny smooth
+3720 plain cotton shirt soft shiny breathable
+3721 plain cottonpolyester shirt wrinkled textured
+3724 plain viscose shirt smooth soft breathable
+3725 plain cottonpolyamide shirt elastic color-woven
+3726 houndstooth polyesterviscose coat retro classic
+3727 twill polyamide down-jacket smooth durable easy-care
+3728 plain polyamide trenchcoat wrinkle-resistant waterproof matte
+3729 plain polyamide down-jacket lightweight smooth wrinkle-resistant
+3730 plain polyamide pants durable outdoor
+3731 plain-varied polyester shirt linen-like durable
+3732 twill polyester lining brushed fluffy
+3733 plain polyestermemory fashion color-spun dye-first
+3734 crepe polyester shirt printed easy-care
+3735 double-twill polyesterviscose coat thick warm brushed
+3736 plain polyester skirt wrinkled pattern-stable
+3737 plain polyester skirt sheer shiny
+3739 plain polyester lining lightweight shiny
+3740 plain polyester lining printed lightweight
+3741 warp-knitted polyester skirt smooth drapey breathable
+3742 warp-knitted polyesterspandex stage-costume iridescent elastic glamorous
+3743 warp-knitted polyester skirt embroidered breathable decorative
+3744 hexagon polyamide shirt gold-printed sheer floral
+3745 warp-knitted polyamidepolyester shirt textured sheer floral
+3746 terry cotton hoodie elastic warm textured
+3747 warp-knitted cottonpolyamide skirt three-dimensional sheer textured
+3748 warp-knitted polyamide decoration irregular-mesh sheer creative
+3749 weft polyestercotton t-shirt moisture-wicking lightweight soft
+3750 warp-knitted acrylic knit-coat jacquard soft warm
+3751 interlock cottonspandex underwear elastic double-knit comfortable
+3752 non-woven polyester home-textile felt-like durable versatile
+7101 jacquard polyester coat glossy delicate
+7102 jacquard polyester hanfu-coat colorful glossy textured
+7103 jacquard polyester coat chinese character jacquard
+7104 jacquard polyester fashion-clothing glossy gorgeous visual-striking
+7105 jacquard polyester shirt comfortable three-dimensional translucent
+7106 plain polyester shirt wrinkled textured
+7107 jacquard lyocellpolyamide shirt striped lightweight breathable
+7108 jacquard polyester shirt paisley auspicious
+7109 jacquard bamboocotton shirt geometric glossy matte
+7110 plain polyamide skin-windbreaker lightweight durable ink-style
+7111 warp-jacquard polyamidemetal dress hollow embroidered noble
+7112 double-satin polyester skirt heavy glossy drapey
+7113 jacquard cottonsilk skirt geometric glossy breathable
+7114 plain-varied linencotton light-coat plain varied textured
+7115 double-layer linensilkcottonspandex light-coat double-crepe textured elegant
+7116 twill-varied recycledpolyester light-coat dope-dyed colorfast eco-friendly
+7117 jacquard viscosepolyamide top ancient-jacquard breathable wrinkle-resistant
+7118 plain-varied viscosepolyamide top stretch checkered-creped
+7119 jacquard cottonpolyesterspandex coat three-dimensional-textured elastic
+7120 gauze-weave polyester top lightweight breathable floral-printed
+7121 double-layer polyester top flocking-printed classic

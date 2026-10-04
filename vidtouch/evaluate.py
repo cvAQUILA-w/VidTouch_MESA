@@ -30,6 +30,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--checkpoint", required=True)
     parser.add_argument("--data-root", required=True)
     parser.add_argument("--output", default=None)
+    parser.add_argument("--predictions-output", default=None)
     parser.add_argument("--device", default="cuda")
     parser.add_argument("--feature-threshold", type=float, default=None)
     parser.add_argument("--partition", choices=("val", "test"), default=None)
@@ -100,6 +101,7 @@ def main() -> None:
             "val_video_views_per_sample",
             cfg["data"].get("video_views_per_sample", 1),
         ),
+        sample_with_replacement=cfg["data"].get("sample_with_replacement", True),
         video_cache_root=video_cache_root,
         val_fabric_sets=cfg["data"].get("val_fabric_sets", False),
     )
@@ -122,7 +124,18 @@ def main() -> None:
     model.load_state_dict(ckpt["model"])
     device = torch.device(args.device if torch.cuda.is_available() and args.device.startswith("cuda") else "cpu")
     model.to(device)
-    metrics = evaluate(model, loader, device, cfg)
+    evaluated = evaluate(
+        model,
+        loader,
+        device,
+        cfg,
+        return_predictions=args.predictions_output is not None,
+    )
+    if args.predictions_output:
+        metrics, predictions = evaluated
+    else:
+        metrics = evaluated
+        predictions = None
     metrics["legacy_main_score"] = mean_legacy_score(metrics)
     metrics["main_score"] = mean_main_score(metrics)
     metrics["mkds"] = material_knowledge_discovery_score(metrics)
@@ -132,6 +145,12 @@ def main() -> None:
     print(text)
     if args.output:
         Path(args.output).write_text(text + "\n", encoding="utf-8")
+    if args.predictions_output:
+        prediction_path = Path(args.predictions_output)
+        prediction_path.parent.mkdir(parents=True, exist_ok=True)
+        with prediction_path.open("w", encoding="utf-8") as handle:
+            for row in predictions or []:
+                handle.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,7 @@
+model,val_weave_invalid,val_material_invalid,val_usage_invalid,val_features_invalid,test_weave_invalid,test_material_invalid,test_usage_invalid,test_features_invalid
+Gemma-3-12B-IT,0,0,0,0,0,0,0,0
+GLM-4V-9B,0,0,0,0,0,0,0,0
+InternVL2.5-8B,0,0,0,0,0,0,0,0
+Llama-3.2-11B-Vision-Instruct (base),0,0,4,0,0,0,3,0
+LLaVA-1.5-7B,0,0,3,0,0,0,0,0
+Qwen2-VL-7B-Instruct,0,0,1,0,0,0,0,0

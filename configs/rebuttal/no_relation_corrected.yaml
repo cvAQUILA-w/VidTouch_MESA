@@ -1,0 +1,6 @@
+_base_: ../mesa.yaml
+
+# Single-factor corrected ablation: retain the submitted MESA configuration
+# and disable only the attribute-relation regularizer.
+loss:
+  relation_weight: 0.0

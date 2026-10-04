@@ -1,0 +1,29 @@
+_base_: ../mesa.yaml
+
+# Capacity-matched control requested by the reviewers. It preserves the final
+# encoders, trainable-block policy, 2+2 evidence budget, split, epochs, and
+# checkpoint rule while removing the proposed learning components.
+data:
+  pair_recombination: false
+
+model:
+  visual_texture_stats: false
+  visual_set_pooling: mean
+  tactile_set_pooling: mean
+  fusion_operator: concat
+  attribute_fusion: shared
+
+loss:
+  contrastive_weight: 0.0
+  cls_weight: 1.0
+  relation_weight: 0.0
+  classification:
+    class_balance_beta: 0.0
+    label_smoothing: 0.0
+    feature_pos_weight: false
+    feature_focal_gamma_pos: 0.0
+    feature_focal_gamma_neg: 0.0
+    focal_gamma:
+      weave: 0.0
+      material: 0.0
+      usage: 0.0

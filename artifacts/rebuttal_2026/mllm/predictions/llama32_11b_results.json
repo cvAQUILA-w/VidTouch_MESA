@@ -1,0 +1,1784 @@
+{
+  "val": {
+    "samples": [
+      {
+        "fid": "00",
+        "gt": {
+          "weave": "oxford",
+          "material": "cotton",
+          "usage": "laptopbag",
+          "features": [
+            "hard",
+            "rough"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The fabric appears to be made of cottonpolyester.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "features": {
+            "response": "**Analysis of the Fabric**\n\nTo determine which features apply to this fabric, let's analyze its characteristics:\n\n*   **Breathability**: The fabric appears to have a weave that allows for airflow, suggesting it is breathable.\n*   **Durability**: The texture and weave suggest it could be durable, but without more context, this is an assumption.\n*   **Elasticity**: There's no indication of elasticity; it looks stiff and non-stretchy.\n*   **Firmness",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm"
+            ],
+            "gt": [
+              "rough"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0306",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "firm"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image exhibits a ribbed pattern, characterized by alternating rows of alternating directions of the yarn, creating a textured and visually appealing design. This pattern is typically achieved through the use of interlock or ribbing machines, which weave the yarn in a specific way to create the distinctive texture. The ribbed pattern is often used in clothing and textiles to add texture and visual interest, and can also provide additional stretch and flexibility to the fabric. \n\n**Answer: Rib**",
+            "pred": "rib",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric appears to be made of a combination of polyester and cotton, as it has a smooth, shiny texture and a soft, slightly fuzzy appearance that is characteristic of these materials.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric is suitable for knitwear.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "**Analysis of the Fabric**\n\nTo determine which features apply to this fabric, let's analyze its characteristics:\n\n*   **Breathability**: The fabric appears to have vertical ridges that could allow for airflow, suggesting it might be breathable.\n*   **Durability**: The dense weave and texture suggest it could be durable.\n*   **Elasticity**: Without visible stretchiness, it's less likely to be elastic.\n*   **Firmness**: The dense weave gives it a firm feel",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm"
+            ],
+            "gt": [
+              "firm"
+            ],
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1": 0.4
+          }
+        }
+      },
+      {
+        "fid": "0310",
+        "gt": {
+          "weave": "plain",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image exhibits a plain weave pattern, characterized by a repeating sequence of interlacing warp and weft yarns that run parallel to each other. This type of weave is also known as a plain-knit or tabby weave.",
+            "pred": "plain",
+            "correct": true
+          },
+          "material": {
+            "response": "The fabric appears to be a blend of polyester and cotton, as it has a smooth, slightly shiny texture that is characteristic of polyester, but also exhibits a subtle texture and softness often associated with cotton.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knit fabric, which is commonly used for clothing items such as knitwear. The texture and pattern of the fabric suggest that it would be suitable for a garment that requires a bit of stretch and flexibility, making it a good choice for a hoodie or a t-shirt. The fabric's texture also implies that it could be used as a lining for a coat or a suit, but it is not as likely to be used for a dress or a skirt",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "The fabric depicted in the image is a type of knit fabric, characterized by its textured appearance and subtle sheen. The fabric's texture is created by the interlocking loops of yarn that are woven together to form a dense and thick material. This type of fabric is often used for clothing and home decor items because it provides warmth and comfort while also being durable and easy to care for.\n\n**Key Features:**\n\n* **Breathable**: The fabric allows for airflow, making it suitable for warm weather",
+            "pred": [
+              "breathable",
+              "durable",
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0317",
+        "gt": {
+          "weave": "knitted",
+          "material": "cottonpolyamide",
+          "usage": "dress",
+          "features": [
+            "thick"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The fabric in the image appears to be a type of polyester, as it has a smooth and shiny texture that is characteristic of synthetic fibers. The fabric also lacks the natural texture and breathability of cotton, which further supports the conclusion that it is not cotton. Additionally, the fabric does not have the softness and flexibility of wool, which eliminates that option. The fabric also does not have the stretchiness of spandex, which rules out the polyesterspandex option. The fabric does not have",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image is likely used for lining. The fabric has a smooth, uniform texture and a solid color, which is typical of lining fabrics. Additionally, the fabric appears to be made of a lightweight material, such as cotton or polyester, which is often used for lining due to its breathability and ease of movement.",
+            "pred": "lining",
+            "correct": false
+          },
+          "features": {
+            "response": "This fabric is characterized by the following features:\n\n*   **Breathable**: The fabric appears to have a mesh-like texture, which allows for airflow and moisture transfer, making it breathable.\n*   **Durable**: The fabric's texture suggests it can withstand wear and tear, indicating durability.\n*   **Elastic**: The fabric's texture does not indicate elasticity, but it may still be elastic depending on its composition.\n*   **Firm**: The fabric's texture is not very firm;",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm"
+            ],
+            "gt": [
+              "thick"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0320",
+        "gt": {
+          "weave": "rib",
+          "material": "cottonpolyester",
+          "usage": "knitwear",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image features a distinctive weave pattern that is characteristic of a specific type of fabric construction. Upon closer inspection, it becomes evident that the fabric exhibits a repeating pattern of interconnected loops and holes, which is typical of a particular type of weave. This pattern is not found in any of the options provided, except for one.\n\n*Answer*: plain-knit",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of a combination of materials, but the primary material is likely to be a type of synthetic fiber, possibly polyester or nylon. The fabric has a smooth, shiny appearance and a slightly stretchy texture, which is consistent with synthetic fibers. Additionally, the fabric has a woven pattern, which is also typical of synthetic fibers. Based on these characteristics, it is likely that the fabric is made of polyamide, which is a type of synthetic fiber commonly used in",
+            "pred": "polyamide",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric is typically used for making a dress. It is a type of fabric that is commonly used in the fashion industry for creating dresses, particularly those with intricate details and textures. The fabric's intricate design and texture would be well-suited for a dress, allowing for a delicate and elegant appearance.",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image is a type of lace, which is known for its delicate and intricate design. Lace is typically made from a thin material that allows for airflow and flexibility, making it breathable. It is also often used in clothing and accessories where a delicate and feminine touch is desired.\n\nBased on these characteristics, the following features apply to this fabric:\n\n* **Breathable**: Lace is a lightweight fabric that allows for airflow, making it breathable.\n* **Lightweight**: Lace is typically made",
+            "pred": [
+              "breathable",
+              "lightweight"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0401",
+        "gt": {
+          "weave": "twill",
+          "material": "wool",
+          "usage": "suit",
+          "features": [
+            "delicate"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image exhibits a plaid pattern, which is a type of woven fabric characterized by a grid-like design featuring intersecting stripes of different colors. This pattern is typically achieved through a specific weaving technique that involves alternating the direction of the weft yarns to create the characteristic diagonal lines.\n\n**Key Features:**\n\n* **Grid-like design**: The fabric features a grid-like pattern, with intersecting stripes of different colors.\n* **Intersecting stripes**: The stripes intersect each other at",
+            "pred": null,
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of polyester.",
+            "pred": "polyester",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric is likely to be used for making a shirt or a coat. The pattern is a classic plaid, which is commonly used in traditional British and Scottish clothing, such as kilts and jackets. The fabric's texture and weave suggest that it would be suitable for a garment that requires a bit of structure and durability, such as a shirt or a coat. The plaid pattern also suggests a more formal or traditional style, which is consistent with the characteristics of these types of garments.",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0404",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterviscose",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to have a plain weave pattern, which is characterized by its simple and uniform weave. The fabric has a smooth, flat surface with no visible texture or pattern. The threads are interlaced in a straightforward manner, with each thread passing over and under the next one in an alternating pattern. This type of weave is commonly used for making clothing, upholstery, and other textiles where a plain and smooth texture is desired.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be a blend of cotton and polyester, as it has a smooth texture and a subtle sheen, which is characteristic of polyester. The fabric also has a slightly rougher texture than pure cotton, which suggests that it may contain some polyester fibers. Based on this observation, the most likely material of the fabric is polyestercotton.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a light-colored, woven material that could be used for a variety of garments or accessories. The texture of the fabric suggests it could be used for a shirt, given its smooth and tightly woven appearance.",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric depicted in the image appears to be a type of canvas or cotton material, which is known for its durability and breathability. The texture of the fabric suggests that it may be a bit rough to the touch, but it is not particularly smooth or glossy. It does not appear to be elastic or sheer, and it is likely to be relatively thick and warm. Additionally, the fabric may be prone to wrinkling due to its texture and weave.\n\nBased on these characteristics, the features that apply",
+            "pred": [
+              "elastic",
+              "glossy",
+              "rough",
+              "sheer",
+              "smooth",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.14285714285714285,
+            "recall": 1.0,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "0718",
+        "gt": {
+          "weave": "plain-knit",
+          "material": "polyesterspandex",
+          "usage": "knitwear",
+          "features": [
+            "elastic",
+            "soft",
+            "thick"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image features a herringbone weave pattern. This pattern is characterized by the interlacing of two sets of yarns at a 90-degree angle to each other, resulting in a distinctive \"herringbone\" appearance. The herringbone pattern is often used in textiles to add texture and visual interest to fabrics.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of polyester. The fabric has a smooth, shiny texture and a slightly stiff feel, which is consistent with polyester fabrics. Additionally, the fabric does not have the natural texture and breathability of cotton or wool, which further supports the identification of polyester.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric appears to be a type of knitwear, characterized by its textured pattern and woven construction. The fabric's texture is rough and uneven, with a visible weave that gives it a slightly rough feel. The pattern consists of small, irregular shapes in a random arrangement, creating a unique and visually interesting design. The color scheme is predominantly black and white, with no other colors present. Overall, this fabric seems suitable for clothing items that require a textured, non-elastic material, such as a sweater",
+            "pred": "knitwear",
+            "correct": true
+          },
+          "features": {
+            "response": "**Breathable**: The fabric appears to have a woven texture that allows for airflow, suggesting it is breathable. This feature is typical of fabrics designed to keep the wearer cool and comfortable.\n\n**Durable**: The fabric's texture and weave indicate that it is likely durable, able to withstand regular wear and tear without easily tearing or fraying.\n\n**Elastic**: The fabric does not show signs of elasticity; it does not appear to stretch or recover its shape well after stretching. Therefore, it is",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic"
+            ],
+            "gt": [
+              "elastic",
+              "soft",
+              "thick"
+            ],
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "f1": 0.3333333333333333
+          }
+        }
+      },
+      {
+        "fid": "14",
+        "gt": {
+          "weave": "plain",
+          "material": "plastic",
+          "usage": "pencilcase",
+          "features": [
+            "transparent"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image features a plain weave pattern, characterized by a simple and straightforward structure where the warp and weft threads intersect each other at right angles, creating a grid-like appearance. This type of weave is commonly used for various textiles, including clothing, upholstery, and home decor items, due to its durability and versatility.",
+            "pred": "plain",
+            "correct": true
+          },
+          "material": {
+            "response": "The material of this fabric is polyester.",
+            "pred": "polyester",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "15",
+        "gt": {
+          "weave": "herringbone",
+          "material": "cotton",
+          "usage": "sportstrousers",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image has a herringbone weave pattern, characterized by the diagonal lines that run in a specific direction and intersect with each other. This type of weave is known for its distinctive V-shaped pattern, which gives the fabric a textured and dimensional appearance.",
+            "pred": "herringbone",
+            "correct": true
+          },
+          "material": {
+            "response": "The fabric in the image appears to be a blend of polyester and cotton, as it has a smooth, slightly shiny texture that is characteristic of polyester, but also has a softness and texture that is similar to cotton.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "features": {
+            "response": "The fabric in the image appears to be a type of woven fabric, likely made from cotton or polyester. It has a textured surface with a subtle sheen, and it appears to be relatively thick and firm. The fabric is not particularly lightweight, and it does not appear to be breathable or elastic. It does not have a glossy finish, and it is not sheer. It is not particularly soft or smooth, but it is not rough either. It does not appear to be wrinkle-resistant. Overall",
+            "pred": [
+              "breathable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.08333333333333333,
+            "recall": 1.0,
+            "f1": 0.15384615384615385
+          }
+        }
+      },
+      {
+        "fid": "3713",
+        "gt": {
+          "weave": "plain",
+          "material": "linencotton",
+          "usage": "shirt",
+          "features": [
+            "breathable",
+            "lightweight",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "This fabric has a plain weave pattern.",
+            "pred": "plain",
+            "correct": true
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of a blend of cotton and polyester, as it has a soft and slightly crinkled texture that is characteristic of cotton, but also has a slightly shiny appearance that is typical of polyester. The fabric's texture and appearance are consistent with a blend of these two materials, which is commonly used in clothing and home textiles.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a light-colored, woven fabric that could be used for a variety of purposes. Based on its texture and appearance, it is likely suitable for a dress or a shirt. The fabric's crinkled texture suggests it may be made from a natural fiber such as cotton or linen, which are commonly used for clothing. The light color of the fabric also suggests it could be used for a summer or casual outfit.",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric depicted in the image appears to be a type of natural fiber, likely linen or cotton, based on its texture and appearance. The fabric has a natural, earthy color and a slightly rough texture, which is consistent with these types of materials. \n\nThis fabric is likely breathable, as natural fibers are known for their ability to allow air to pass through them, making them suitable for clothing that requires airflow and moisture-wicking properties. It is also likely durable, as linen and cotton are known",
+            "pred": [
+              "breathable",
+              "durable",
+              "rough"
+            ],
+            "gt": [
+              "breathable",
+              "lightweight",
+              "textured"
+            ],
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "f1": 0.3333333333333333
+          }
+        }
+      },
+      {
+        "fid": "3731",
+        "gt": {
+          "weave": "plain-varied",
+          "material": "polyester",
+          "usage": "shirt",
+          "features": [
+            "linen-like",
+            "durable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to have a twill weave pattern. The fabric is woven in a way that creates a diagonal ribbing, with the warp and weft yarns interlaced in a specific order to produce this characteristic texture. The diagonal lines give the fabric a distinctive appearance and make it suitable for various applications such as upholstery, clothing, and home decor.",
+            "pred": "rib",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric is polyamide.",
+            "pred": "polyamide",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric appears to be a denim or tweed-like fabric, which is often used for making jeans, jackets, or other casual wear. It's not a suitable choice for a dress, hoodie, knitwear, light-coat, lining, or top. It could be used for a suit or a skirt, but it's more commonly associated with casual wear. It's not a good choice for a t-shirt.",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "This fabric appears to be a denim or tweed fabric. It is a woven fabric with a rough texture, and it is not smooth or soft. It is also not sheer or lightweight, and it does not appear to be glossy. It is also not elastic or firm, and it is not breathable or wrinkle-resistant. It is a thick fabric that can be warm, and it is durable. It is also a textured fabric, but it is not rough in the sense that it is not scratch",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "durable"
+            ],
+            "precision": 0.07142857142857142,
+            "recall": 1.0,
+            "f1": 0.13333333333333333
+          }
+        }
+      },
+      {
+        "fid": "3732",
+        "gt": {
+          "weave": "twill",
+          "material": "polyester",
+          "usage": "lining",
+          "features": [
+            "brushed",
+            "fluffy"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image is a plain weave.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of a blend of polyester and cotton, as it exhibits characteristics of both materials. The fabric's texture suggests a medium-weight, durable, and slightly stretchy material, which is consistent with the properties of a polyestercotton blend. This type of fabric is commonly used for clothing, upholstery, and home decor due to its versatility and practicality. The presence of polyester provides strength and resistance to wrinkles, while the cotton component adds softness and breathability",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric appears to be a type of fabric commonly used for making shirts. The texture and weave of the fabric suggest that it is suitable for creating garments that require a smooth, structured, and slightly stiff texture, which is characteristic of shirt fabric. The fabric's appearance is not typically associated with other types of clothing like coats, hoodies, knitwear, light-coats, linings, skirts, or suits, which may require different types of fabric.",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "3733",
+        "gt": {
+          "weave": "plain",
+          "material": "polyestermemory",
+          "usage": "fashion",
+          "features": [
+            "color-spun",
+            "dye-first"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be woven, rather than knitted. The fabric has a subtle sheen and a soft texture, indicating that it is made from a natural fiber such as cotton or linen. The fabric's weave is tight and even, with no visible pilling or snagging, suggesting that it is of good quality.\n\nThe fabric's texture is also quite dense, with a slightly rougher feel than a typical plain weave. This could be due to the use of a heavier weight",
+            "pred": "plain",
+            "correct": true
+          }
+        }
+      },
+      {
+        "fid": "3741",
+        "gt": {
+          "weave": "warp-knitted",
+          "material": "polyester",
+          "usage": "skirt",
+          "features": [
+            "smooth",
+            "drapey",
+            "breathable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric appears to be a plain weave.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of a type of synthetic material, likely polyester or polyamide, given its smooth and shiny texture. The fabric's weave is tight and uniform, with no visible threads or loose fibers. The color is a light beige or off-white hue, which could be due to the type of dye used or the natural color of the material itself.\n\nBased on these characteristics, it is likely that the fabric is made of a blend of polyester and another material, such as",
+            "pred": "polyamide",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image is a type of fabric that is commonly used for lining, as it has a smooth and slightly shiny texture, which is typical of lining fabrics. The fabric appears to be made of a synthetic material, such as polyester or nylon, which is often used for lining due to its durability and resistance to wrinkles. The fabric's texture and appearance suggest that it is not suitable for outerwear like coats, dresses, or suits, but rather for inner garments or accessories where a smooth and",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "**Fabric Analysis**\n\nThe fabric in the image is a type of fabric that can be used for clothing, upholstery, or other textile applications. To determine its features, we will analyze the image and identify the characteristics that are visible.\n\n**Breathability**\n\nThe fabric appears to have small holes or pores, which suggests that it is breathable. This means it allows air to pass through, making it suitable for clothing that requires airflow, such as activewear or outdoor gear.\n\n**Durability**\n\nThe fabric",
+            "pred": [
+              "breathable",
+              "rough"
+            ],
+            "gt": [
+              "smooth",
+              "breathable"
+            ],
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5
+          }
+        }
+      },
+      {
+        "fid": "3744",
+        "gt": {
+          "weave": "hexagon",
+          "material": "polyamide",
+          "usage": "shirt",
+          "features": [
+            "gold-printed",
+            "sheer",
+            "floral"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The material of this fabric appears to be a cottonpolyester blend, as it has a slightly shiny appearance and a texture that is consistent with a blend of natural and synthetic fibers.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric would likely be used for a dress. It is a light fabric, and the daisies are embroidered on it, which would be fitting for a dress. The fabric is not thick enough to be used for a coat, hoodie, or suit, and it is not a knit fabric, so it is not suitable for knitwear or a t-shirt. It is also not a lining, so it would not be used for the inside of another garment.",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image appears to be a type of woven fabric, likely cotton or linen, based on its texture and weave. The fabric has a subtle sheen to it, suggesting it may be made from a blend of natural fibers or have a slight texture that gives it a slightly shiny appearance. \n\nThe fabric is not breathable or elastic, as it does not appear to be able to stretch or allow air to pass through it. It is also not firm or rough to the touch, and does",
+            "pred": [
+              "breathable",
+              "elastic",
+              "firm",
+              "rough"
+            ],
+            "gt": [
+              "sheer"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3746",
+        "gt": {
+          "weave": "terry",
+          "material": "cotton",
+          "usage": "hoodie",
+          "features": [
+            "elastic",
+            "warm",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a plain weave, characterized by a simple and uniform arrangement of interlacing yarns. The fabric's texture is smooth and even, with no visible patterns or textures that would suggest a different type of weave.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be a towel made of cottonpolyester.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a towel or a piece of cloth that has been used for cleaning. The texture of the fabric is rough and absorbent, with a bumpy surface that suggests it is made of a material like cotton or a similar natural fiber. The color is off-white, which is consistent with a white towel or cloth that has been used for cleaning and has become stained or discolored. Based on these characteristics, it is likely that this fabric is used for cleaning purposes",
+            "pred": null,
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image appears to be a towel, which is typically made of a thick, absorbent material. Based on its texture and appearance, it can be described as:\n\n* **Soft**: The fabric has a soft and plush texture, suggesting it is designed for comfort and gentle on the skin.\n* **Textured**: The fabric has a textured surface, which is typical of towels. This texture helps to absorb moisture and provides a non-slip surface.\n\n**Exclusions:**\n\n* **",
+            "pred": [
+              "soft",
+              "textured",
+              "thick"
+            ],
+            "gt": [
+              "elastic",
+              "warm",
+              "textured"
+            ],
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "f1": 0.3333333333333333
+          }
+        }
+      },
+      {
+        "fid": "3749",
+        "gt": {
+          "weave": "weft",
+          "material": "polyestercotton",
+          "usage": "t-shirt",
+          "features": [
+            "moisture-wicking",
+            "lightweight",
+            "soft"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "Based on the image, the fabric appears to be a type of cotton-polyester blend, but it is not possible to determine the exact composition without more information or a closer inspection.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a lightweight, smooth, and slightly shiny material, which is typical of fabrics used for lining. The texture of the fabric is not as dense as that of a coat or suit, and it does not have the thickness or weight of a knitwear or a t-shirt. The color of the fabric is a bright lime green, which is not a common color for a coat or suit, but is more commonly used for lining or as an accent in clothing. The",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image appears to be a type of cotton or canvas material, which is known for its durability and breathability. The texture of the fabric suggests that it may be slightly rough to the touch, but it does not appear to be particularly glossy or smooth. It also does not appear to be particularly thin or lightweight, and it may be prone to wrinkling due to its texture.\n\nBased on these characteristics, the features that apply to this fabric are:\n\n* Breathable\n* Durable",
+            "pred": [
+              "breathable",
+              "durable",
+              "glossy",
+              "lightweight",
+              "rough",
+              "smooth"
+            ],
+            "gt": [
+              "lightweight",
+              "soft"
+            ],
+            "precision": 0.16666666666666666,
+            "recall": 0.5,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "7104",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyester",
+          "usage": "fashion-clothing",
+          "features": [
+            "glossy",
+            "gorgeous",
+            "visual-striking"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to have a complex weave pattern, with a repeating design that suggests it is not a plain or plain-knit fabric. The pattern is not as regular as a herringbone or twill weave, and it does not appear to be a double-layer or terry fabric. Additionally, the fabric does not exhibit the characteristics of a plain-varied weave. Therefore, based on the visual inspection, the most likely weave pattern of this fabric is jacquard.\n\n*Answer",
+            "pred": "double-layer",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be a type of polyester fabric, likely a polyesterpolyamide blend.",
+            "pred": "polyamide",
+            "correct": false
+          },
+          "features": {
+            "response": "This fabric appears to be a luxurious, ornate fabric that is likely made of silk or satin. The fabric features a repeating pattern of floral designs in a gold and silver color scheme, which suggests that it may be used for formal or decorative purposes. The fabric has a smooth, shiny surface that catches the light, indicating that it is likely to be glossy. \n\nBased on these observations, the features that apply to this fabric are:\n\n*   **Glossy**: The fabric has a smooth,",
+            "pred": [
+              "glossy",
+              "smooth"
+            ],
+            "gt": [
+              "glossy"
+            ],
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          }
+        }
+      },
+      {
+        "fid": "7115",
+        "gt": {
+          "weave": "double-layer",
+          "material": "linen-silk-cotton-spandex",
+          "usage": "light-coat",
+          "features": [
+            "double-crepe",
+            "textured",
+            "elegant"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a plain weave, as evidenced by the parallel lines that run throughout the fabric, which are characteristic of a plain weave pattern. The fabric does not exhibit any of the distinctive features of the other options, such as the crisscrossing lines of a double-layer weave, the diagonal lines of a herringbone weave, the intricate patterns of a jacquard weave, the texture of a plain-knit fabric, the stretchy texture of a plain-varied",
+            "pred": "double-layer",
+            "correct": true
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a tie-dye t-shirt, so the most likely usage of this fabric is a t-shirt.",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image exhibits a combination of characteristics that can be described as follows:\n\n*   **Soft and smooth**: The fabric appears to be soft and smooth, with a gentle texture that suggests it is comfortable against the skin.\n*   **Wrinkle-resistant**: The fabric has a subtle sheen and appears to be resistant to wrinkles, indicating that it is designed to maintain its shape and appearance even after repeated use.\n*   **Lightweight**: The fabric appears to be lightweight, making it",
+            "pred": [
+              "lightweight",
+              "smooth",
+              "soft",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "textured"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "7117",
+        "gt": {
+          "weave": "jacquard",
+          "material": "viscose-nylon",
+          "usage": "top",
+          "features": [
+            "ancient-jacquard",
+            "breathable",
+            "wrinkle-resistant"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image exhibits a plain weave pattern, characterized by its grid-like structure with no visible texture or pattern. This type of weave is often used for clothing and home decor fabrics, providing a smooth and even surface.\n\n**Answer: plain**",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric appears to be a type of fabric that could be used for a shirt or lining. It has a subtle texture and a neutral color, which suggests it would be suitable for a garment that requires a smooth and comfortable texture. The fabric's weave is tight and even, indicating it would provide a comfortable fit and feel against the skin. Additionally, the fabric's neutral color makes it versatile and able to complement a variety of outfits. Overall, this fabric would be suitable for a shirt or lining that",
+            "pred": "lining",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image exhibits a combination of features that make it suitable for various applications. It is breathable, allowing for airflow and moisture transfer, which is beneficial in clothing and upholstery. The fabric's durability ensures it can withstand regular use without compromising its appearance or functionality. It does not exhibit elasticity, meaning it does not stretch or recover its shape after being stretched. It is firm, providing stability and structure, making it suitable for upholstery and other applications where stability is crucial. The fabric does not have",
+            "pred": [
+              "breathable",
+              "elastic",
+              "firm"
+            ],
+            "gt": [
+              "breathable",
+              "wrinkle-resistant"
+            ],
+            "precision": 0.3333333333333333,
+            "recall": 0.5,
+            "f1": 0.4
+          }
+        }
+      },
+      {
+        "fid": "7119",
+        "gt": {
+          "weave": "jacquard",
+          "material": "cotton-polyester-spandex",
+          "usage": "coat",
+          "features": [
+            "three-dimensional-textured",
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image features a herringbone weave pattern, characterized by its distinctive V-shaped ridges that run in opposite directions, creating a subtle, textured appearance. This pattern is commonly found in various types of fabric, including cotton, linen, and silk, and is often used for its durability and versatility. The herringbone weave is also known for its ability to add texture and visual interest to a fabric, making it a popular choice for clothing, upholstery, and other textile applications.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of fabric that is commonly used for lining or as a lining in garments, rather than as a standalone fabric for outerwear. The fabric has a soft and luxurious texture, with a subtle sheen that suggests it may be made from a high-quality material such as silk or cotton. The pattern of the fabric is intricate and detailed, with a repeating design that adds visual interest without being too overpowering. Overall, the fabric seems well-suited for use",
+            "pred": "lining",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric depicted in the image appears to be a type of cotton or polyester fabric, characterized by its textured pattern and subtle sheen. It is not particularly breathable, as it does not allow for airflow or moisture transfer. The fabric's texture is rough and uneven, with a noticeable weave pattern that gives it a slightly rougher feel than a smooth fabric. It is also not particularly elastic, as it does not stretch or conform to the body like a stretchy fabric would. The fabric's firmness",
+            "pred": [
+              "breathable",
+              "elastic",
+              "firm",
+              "rough",
+              "smooth",
+              "textured"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.16666666666666666,
+            "recall": 1.0,
+            "f1": 0.2857142857142857
+          }
+        }
+      }
+    ],
+    "accuracy": {
+      "weave": 0.3333333333333333,
+      "material": 0.16666666666666666,
+      "usage": 0.11764705882352941
+    },
+    "avg_accuracy": 0.2058823529411765,
+    "feature_f1": 0.2244200244200244,
+    "correct": {
+      "weave": 6,
+      "material": 3,
+      "usage": 2
+    },
+    "total": {
+      "weave": 18,
+      "material": 18,
+      "usage": 17
+    },
+    "feature_f1_sum": 4.039560439560439,
+    "feature_count": 18
+  },
+  "test": {
+    "samples": [
+      {
+        "fid": "01",
+        "gt": {
+          "weave": "plain",
+          "material": "linen",
+          "usage": "curtain",
+          "features": [
+            "hard",
+            "rough"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be plain.",
+            "pred": "plain",
+            "correct": true
+          },
+          "features": {
+            "response": "This image appears to be a close-up of a fabric, and based on the visible texture, it is most likely made of cotton or linen. It is likely to be breathable, durable, and soft. It is not glossy, lightweight, rough, sheer, or thick. It is likely to be warm, but it is not wrinkle-resistant. It is also likely to be textured. The fabric is not elastic.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "rough"
+            ],
+            "precision": 0.08333333333333333,
+            "recall": 1.0,
+            "f1": 0.15384615384615385
+          }
+        }
+      },
+      {
+        "fid": "03",
+        "gt": {
+          "weave": "herringbone",
+          "material": "wool",
+          "usage": "hoodie",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image is a plain-knit fabric.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric appears to be a blend of polyester and spandex, as it has a smooth, stretchy texture that is characteristic of these materials. The fabric's appearance and texture suggest that it is a synthetic fabric, which is consistent with the properties of polyester and spandex.",
+            "pred": "polyester",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric is suitable for knitwear, as it has a thick, textured weave that is characteristic of knitted fabrics. The fabric's texture and appearance suggest it would be suitable for clothing items that require a bit of warmth and structure, such as a sweater or cardigan.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image exhibits a textured appearance, characterized by its woven or knitted pattern. This texture is typically associated with fabrics that are not sheer or smooth. The fabric's texture also suggests it is not particularly lightweight, as it appears to have some thickness and depth. Additionally, the texture implies that the fabric may be warm and soft to the touch, which is consistent with fabrics commonly used for clothing. Finally, the texture does not suggest that the fabric is elastic or firm, as it appears",
+            "pred": [
+              "elastic",
+              "firm",
+              "lightweight",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.1111111111111111,
+            "recall": 1.0,
+            "f1": 0.19999999999999998
+          }
+        }
+      },
+      {
+        "fid": "0304",
+        "gt": {
+          "weave": "plain",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "firm"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "**Fabric Pattern Analysis**\n\nThe fabric in the image exhibits a complex interplay of diagonal lines and textures, characteristic of a specific type of weave. To determine the exact pattern, let's break down the key features:\n\n* **Diagonal Lines:** The fabric features diagonal lines that run from top-left to bottom-right and vice versa, creating a crisscross pattern.\n* **Texture:** The texture is woven in a way that creates a series of small, interconnected squares, which are then arranged in a",
+            "pred": null,
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be a type of knitted fabric, likely made from a blend of materials such as cotton and polyester. The texture and pattern suggest a medium-weight fabric with a slightly rougher texture, which is consistent with a blend of these materials. The fabric's color is a warm, earthy tone that could be achieved through the use of natural dyes or a combination of dyes. Overall, the fabric appears to be a versatile and practical choice for clothing or home decor",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knitwear, likely a sweater or cardigan. The texture and pattern of the fabric suggest that it is designed for warmth and comfort, making it suitable for colder weather conditions. The fabric's intricate design and texture also suggest that it may be made from a high-quality material, such as wool or a blend of natural fibers.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric depicted in the image is a knitted fabric, characterized by its textured and intricate pattern. The fabric appears to be made of a thick, warm material, likely wool or a wool blend, which is common for knitted fabrics. The texture of the fabric suggests that it may be slightly rough to the touch, but it is not sheer or transparent. The fabric's thickness and warmth make it suitable for colder weather or as a layering piece.\n\nBased on these characteristics, the features that apply",
+            "pred": [
+              "rough",
+              "sheer",
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "firm"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0308",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image exhibits a houndstooth pattern, characterized by a black and white weave design. The pattern consists of small, rounded, and irregular shapes that are arranged in a repeating sequence, creating a distinctive and classic design. This type of weave is commonly used in clothing and textiles, particularly in jackets, trousers, and dresses, where it adds texture and visual interest to the fabric.",
+            "pred": null,
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be a type of woven fabric, likely made from a blend of materials. The pattern and texture suggest that it could be a cottonpolyester blend, which is a common type of fabric used for clothing and upholstery. The fabric's texture is smooth and slightly shiny, which is consistent with polyester fibers. The pattern is also consistent with a cottonpolyester blend, as it has a subtle sheen and a slightly rough texture.\n\nBased on the characteristics of the fabric,",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knit fabric, likely used for making a coat or a dress. The fabric has a houndstooth pattern, which is a classic and timeless design that can add a touch of sophistication to any garment. The fabric's texture is soft and warm, suggesting it may be made from a blend of materials such as wool or cotton. Overall, this fabric would be suitable for creating a stylish and comfortable garment for colder weather.",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "**Fabric Characteristics:**\n\n*   **Breathable**: This fabric is not breathable. It does not allow air to pass through it easily, which can make it uncomfortable to wear in warm weather or for extended periods.\n*   **Durable**: The fabric appears to be durable, as it can withstand wear and tear without easily tearing or fraying. It seems to be made of a sturdy material that can handle daily use.\n*   **Elastic**: The fabric does not seem to be elastic",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "rough",
+              "warm"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0410",
+        "gt": {
+          "weave": "plain",
+          "material": "viscosepolyesterspandex",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a type of woven fabric, characterized by its diagonal stripes. The fabric has a textured weave with a subtle sheen, suggesting it may be made from a blend of materials. The diagonal stripes are evenly spaced and run from the top left to the bottom right of the image, creating a sense of movement and visual interest. The fabric's texture is dense and tightly woven, with no visible loose threads or fraying. The overall appearance of the fabric suggests it could",
+            "pred": null,
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of knitwear, characterized by its textured and woven pattern. The fabric's texture is dense and has a honeycomb-like structure, which is typical of knitted fabrics. The fabric's pattern features diagonal stripes, which are common in knitwear designs. Based on these characteristics, it is likely that this fabric is intended for use in clothing items such as sweaters, hats, or socks. \n\nAnswer: knitwear.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image appears to be a type of knit fabric, characterized by its textured surface and diagonal stripes. The fabric's texture is likely to be soft and smooth, making it comfortable against the skin. It may also be breathable, allowing for airflow and moisture-wicking properties. Additionally, the fabric's texture could provide some elasticity, allowing it to stretch and recover its shape. However, without more information or context, it is difficult to determine if the fabric is also durable, firm, glossy",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "smooth",
+              "soft",
+              "textured"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.125,
+            "recall": 1.0,
+            "f1": 0.2222222222222222
+          }
+        }
+      },
+      {
+        "fid": "0412",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyesterspandex",
+          "usage": "dress",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a type of woven fabric, characterized by its diagonal lines that run at a 45-degree angle to the selvage edge. This pattern is typical of a specific type of fabric construction known as a herringbone weave.\n\n**Step 1: Identify the Fabric Pattern**\n\nThe fabric in the image exhibits a repeating pattern of diagonal lines that run from top left to bottom right and from top right to bottom left. This is a characteristic feature of herringbone fabric",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric depicted in the image appears to be made of polyester, as it exhibits a smooth, shiny surface and a subtle sheen. The fabric's texture is characterized by a fine weave, with a subtle diagonal pattern that gives it a slightly textured appearance. The color of the fabric is a deep blue, which is consistent with the common color palette of polyester fabrics. Overall, the fabric's appearance suggests that it is made from polyester, a synthetic material known for its durability and ease of care.",
+            "pred": "polyester",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a type of denim, which is commonly used for making jeans or other casual pants.",
+            "pred": null,
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image appears to be denim, which is a type of cotton fabric known for its durability and comfort. Based on this, we can determine that the fabric is **durable** and **soft**. The fabric's texture also suggests it is **textured**. The fabric does not appear to be **breathable**, **glossy**, **sheer**, **thin**, or **warm**. It does not appear to be **elastic** or **wrinkle-resistant",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "glossy",
+              "sheer",
+              "soft",
+              "textured",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.1111111111111111,
+            "recall": 1.0,
+            "f1": 0.19999999999999998
+          }
+        }
+      },
+      {
+        "fid": "0414",
+        "gt": {
+          "weave": "knitted",
+          "material": "cottonpolyesterspandex",
+          "usage": "knitwear",
+          "features": [
+            "three-dimensional"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The fabric in the image appears to be a type of cottonpolyester blend, characterized by its texture and appearance. The fabric has a rough, woven texture that is typical of cottonpolyester blends, which are often used for upholstery and other heavy-duty applications. The fabric also has a slightly rougher texture than pure cotton, which is consistent with the properties of polyester. Additionally, the fabric has a slightly shiny appearance, which is also consistent with the properties of polyester. Overall, based on its texture",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric depicted in the image appears to be a type of denim fabric, which is commonly used for making jeans or other casual clothing items. However, without more information, it is difficult to determine the exact usage of this fabric. \n\nBased on the image, it appears to be a dark blue denim fabric with some small holes and white specks, which could indicate that it has been used for a while or has been through the washing machine. The fabric also has a slightly rough texture, which is",
+            "pred": null,
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0416",
+        "gt": {
+          "weave": "twill",
+          "material": "tencelcottonspandex",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in this image appears to be a plain weave, which is characterized by a simple, grid-like pattern where the warp and weft yarns are woven in an alternating pattern. The fabric's texture is smooth and even, with no visible patterns or textures that would suggest it is a different type of weave.",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a light gray or beige fabric, and it is likely used for a dress. The fabric has a smooth texture and a subtle sheen to it, which suggests that it may be made of a synthetic or blended material. The color is a light gray or beige, which is a common color for dresses, and the texture is smooth and even, which is also typical of dress fabric.",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "This fabric is soft, breathable, and textured, and appears to be made of a lightweight material. It appears to be a type of fabric that is designed to provide comfort and flexibility, making it suitable for clothing or upholstery.",
+            "pred": [
+              "breathable",
+              "lightweight",
+              "soft",
+              "textured"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0704",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyestercotton",
+          "usage": "top",
+          "features": [
+            "gold-lined",
+            "lace"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a type of woven fabric, but it is not possible to determine the exact weave pattern based on this image alone. The image shows a close-up view of the fabric's surface, which makes it difficult to discern the specific weave pattern. However, the fabric appears to have a smooth and even texture, which is consistent with a plain weave. Additionally, the fabric has a subtle sheen to it, which could suggest that it is made from a synthetic or semi",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The material of this fabric is polyesterspandex.",
+            "pred": "polyester",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric appears to be suitable for a dress or a coat, as it is likely to be used for formal or semi-formal clothing due to its glittery and sparkly nature.",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0712",
+        "gt": {
+          "weave": "plain-knit",
+          "material": "polyester",
+          "usage": "t-shirt",
+          "features": [
+            "soft",
+            "smooth"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a plain weave, characterized by its uniform and even texture. The fabric's surface is smooth and flat, with no visible patterns or textures that would suggest a different type of weave. The fabric's appearance is consistent with a plain weave, which is a common type of weave used in many types of fabrics.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be a type of polyester fabric, specifically a polyamide fabric. The texture and weave of the fabric are consistent with a polyester material, which is known for its durability and resistance to wrinkles. The fabric's smooth and even texture also suggests that it may be made from a synthetic material like polyester. Additionally, the fabric's lack of visible fibers or threads suggests that it may be a dense and tightly woven fabric, which is also consistent with polyester fabrics.\n\n*Answer*:",
+            "pred": "polyamide",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric appears to be a type of knitwear, as it has a textured and woven appearance that is typical of knit fabrics. The fabric's texture suggests it could be used for a variety of clothing items, such as a sweater or a pair of socks.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric depicted in the image appears to be a type of fabric that is both breathable and durable, as it has a textured weave that allows for airflow and can withstand wear and tear. It also seems to be firm in texture, providing a solid foundation for various applications. The fabric's smooth surface suggests it may be suitable for clothing or upholstery where a smooth finish is desired. However, without more information, it's difficult to determine if it is lightweight or heavy, or if it has any specific characteristics",
+            "pred": [
+              "breathable",
+              "durable",
+              "firm",
+              "lightweight",
+              "smooth",
+              "textured"
+            ],
+            "gt": [
+              "soft",
+              "smooth"
+            ],
+            "precision": 0.16666666666666666,
+            "recall": 0.5,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "0713",
+        "gt": {
+          "weave": "terry",
+          "material": "cottonpolyester",
+          "usage": "thermal-wear",
+          "features": [
+            "soft",
+            "thick"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "This fabric appears to be a type of woven fabric, specifically a twill weave.",
+            "pred": "twill",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be a type of wool fabric, likely a tweed or herringbone pattern. The texture and weave of the fabric suggest that it is made from natural fibers, and the coloration is consistent with wool. The fabric's appearance is rough and textured, with a subtle sheen that is characteristic of wool. \n\nBased on these observations, the material of this fabric is most likely wool.",
+            "pred": "wool",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric depicted in the image is a type of tweed, characterized by its thick and textured appearance. Tweed is a woven fabric that is typically made from wool or a wool-blend material, known for its durability and warmth. The fabric's texture is often described as rough and dense, with a slightly fuzzy appearance.\n\nBased on these characteristics, the features that apply to this fabric are:\n\n*   **Durable**: Tweed is known for its durability and resistance to wear and tear, making",
+            "pred": [
+              "durable",
+              "rough",
+              "textured",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "soft",
+              "thick"
+            ],
+            "precision": 0.2,
+            "recall": 0.5,
+            "f1": 0.28571428571428575
+          }
+        }
+      },
+      {
+        "fid": "0715",
+        "gt": {
+          "weave": "rib",
+          "material": "bamboocharcoalspandexspolyamide",
+          "usage": "base-layer",
+          "features": [
+            "elastic",
+            "soft",
+            "smooth"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image features a plain weave pattern.",
+            "pred": "plain",
+            "correct": false
+          },
+          "features": {
+            "response": "This fabric is a type of cotton fabric that is commonly used in clothing and home decor. It is known for its durability and comfort. The fabric has a soft, smooth texture that is pleasant to the touch, making it suitable for a variety of applications.\n\n**Breathable**: Yes, this fabric is breathable, allowing air to pass through it and providing a comfortable fit.\n**Durable**: Yes, this fabric is durable and can withstand repeated washing and wear without losing its shape or appearance.\n**",
+            "pred": [
+              "breathable",
+              "durable",
+              "rough",
+              "smooth",
+              "soft"
+            ],
+            "gt": [
+              "elastic",
+              "soft",
+              "smooth"
+            ],
+            "precision": 0.4,
+            "recall": 0.6666666666666666,
+            "f1": 0.5
+          }
+        }
+      },
+      {
+        "fid": "09",
+        "gt": {
+          "weave": "bubble",
+          "material": "plastic",
+          "usage": "airbubblefilm",
+          "features": [
+            "light"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The material of this fabric is bubble wrap. Bubble wrap is a type of plastic packaging material that consists of a layer of plastic film with small air-filled bubbles trapped between two layers of plastic. It is commonly used for packaging fragile items to protect them from damage during shipping or storage. The bubbles provide cushioning and shock absorption, making it an effective way to protect delicate items from scratches, dents, and other forms of damage. Bubble wrap is widely available in various sizes and thicknesses, and it",
+            "pred": "plastic",
+            "correct": true
+          }
+        }
+      },
+      {
+        "fid": "12",
+        "gt": {
+          "weave": "diamond",
+          "material": "nylon",
+          "usage": "straps",
+          "features": [
+            "hard"
+          ]
+        },
+        "pred": {}
+      },
+      {
+        "fid": "3701",
+        "gt": {
+          "weave": "crocodileembossed",
+          "material": "polyesterpu",
+          "usage": "coat",
+          "features": [
+            "thick",
+            "warm",
+            "durable"
+          ]
+        },
+        "pred": {
+          "usage": {
+            "response": "This fabric is most likely used for a coat. The fabric is crocodile skin-like and has a shiny, wet look to it, which is often associated with luxury and sophistication, making it suitable for a coat. Additionally, the texture of the fabric is thick and robust, which is also characteristic of coats.",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "The fabric in the image appears to be made of leather or faux leather, which is known for its durability and texture. It has a crocodile skin pattern embossed on it, which gives it a rough texture. The material is also shiny and has a reflective surface, indicating that it may be treated with a glossy finish. Based on these characteristics, we can conclude that the fabric is likely to be:\n\n* Durable\n* Textured\n* Glossy\n* Rough\n\nIt is not likely",
+            "pred": [
+              "durable",
+              "glossy",
+              "rough",
+              "textured"
+            ],
+            "gt": [
+              "thick",
+              "warm",
+              "durable"
+            ],
+            "precision": 0.25,
+            "recall": 0.3333333333333333,
+            "f1": 0.28571428571428575
+          }
+        }
+      },
+      {
+        "fid": "3705",
+        "gt": {
+          "weave": "stripedcheck",
+          "material": "polyesterviscose",
+          "usage": "suit",
+          "features": [
+            "moisture-wicking",
+            "wrinkle-resistant"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "The material of this fabric appears to be a blend of polyester and polyamide, which is a type of synthetic fiber. The texture and appearance of the fabric suggest that it has a soft and fuzzy surface, which is characteristic of polyester and polyamide blends.",
+            "pred": "polyamide",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric appears to be a type of knitwear, likely a sweater or a similar type of garment.",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "This fabric appears to be a dark gray, thick, textured fabric, and is likely a carpet or rug. It is not breathable, as it is a thick, heavy fabric. It is also not elastic or firm, as it is a soft, cushioned material. The fabric does not appear to be glossy or sheer, and it is not smooth. It is rough to the touch, and it is not soft or warm. It is also not wrinkle-resistant, as it has a textured surface",
+            "pred": [
+              "breathable",
+              "elastic",
+              "firm",
+              "glossy",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "wrinkle-resistant"
+            ],
+            "precision": 0.08333333333333333,
+            "recall": 1.0,
+            "f1": 0.15384615384615385
+          }
+        }
+      },
+      {
+        "fid": "3714",
+        "gt": {
+          "weave": "double-layer",
+          "material": "cotton",
+          "usage": "shirt",
+          "features": [
+            "lightweight",
+            "breathable",
+            "stable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a plain weave. This is evident from the regular, uniform pattern of interlacing threads that create a grid-like structure. The fabric's texture is smooth and flat, with no visible patterns or textures that would suggest a different weave type. The interlacing of the threads is consistent throughout the fabric, with no visible signs of a herringbone or other pattern. The fabric's smoothness and lack of texture also rule out the possibility of a ribbed",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric appears to be cottonpolyamide, as it has a slightly rough texture and a subtle sheen that is characteristic of cotton-polyamide blends.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a plain, off-white fabric with a subtle sheen and a slightly rough texture. It is likely used for a garment such as a shirt or a top, given its texture and color.",
+            "pred": "shirt",
+            "correct": true
+          },
+          "features": {
+            "response": "The fabric in the image is a plain white fabric with a few small holes in it. The fabric appears to be made of a natural material, such as cotton or linen, and has a rough texture. It does not have any glossy or shiny appearance, so it is not glossy. The fabric is not very thick, so it is not thick. The fabric is not very warm, so it is not warm. The fabric is not very smooth, so it is not smooth. The fabric is not",
+            "pred": [
+              "glossy",
+              "rough",
+              "smooth",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "lightweight",
+              "breathable"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3720",
+        "gt": {
+          "weave": "plain",
+          "material": "cotton",
+          "usage": "shirt",
+          "features": [
+            "soft",
+            "shiny",
+            "breathable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image is woven, not knitted, so the options of plain-knit, plain-varied, and rib are ruled out.  The fabric is not double-layered, so that option is also ruled out.  The fabric is not terry, so that option is ruled out.  The fabric is not warp-knitted, so that option is ruled out.  The fabric is not herringbone, so that option is ruled out.  The fabric is not",
+            "pred": "double-layer",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of cotton. The fabric's texture and weave are consistent with cotton, and it has a soft, smooth feel that is typical of cotton fabrics. Additionally, the fabric's ability to hold dye and print well, as seen in the chevron pattern, is also consistent with cotton.",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "The fabric depicted in the image appears to be a type of fabric that could be used for a dress or a shirt. The fabric has a light gray and white chevron pattern, which is a common design for dresses and shirts. The fabric also appears to be a lightweight material, which would be suitable for a dress or a shirt. Therefore, the most likely usage of this fabric is for a dress or a shirt.",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric depicted in the image appears to be a cotton or polyester blend, which is a common material used in home decor and fashion. The fabric's texture is smooth and soft, with a subtle sheen that suggests it may be treated with a fabric finish or coating. The fabric also appears to be lightweight and breathable, as it does not appear to be thick or heavy. \n\nBased on these characteristics, the features that apply to this fabric are:\n\n*   **Breathable**: The fabric appears",
+            "pred": [
+              "breathable",
+              "lightweight",
+              "smooth",
+              "soft",
+              "thick"
+            ],
+            "gt": [
+              "soft",
+              "breathable"
+            ],
+            "precision": 0.4,
+            "recall": 1.0,
+            "f1": 0.5714285714285715
+          }
+        }
+      },
+      {
+        "fid": "3740",
+        "gt": {
+          "weave": "plain",
+          "material": "polyester",
+          "usage": "lining",
+          "features": [
+            "printed",
+            "lightweight"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a type of woven fabric, characterized by its visible interlacement of warp and weft yarns. The fabric's texture is consistent with a plain weave, where the warp and weft yarns are woven together in a simple over-under pattern. This type of weave is commonly used for a variety of fabrics, including cotton, linen, and polyester.\n\n*Answer*: plain",
+            "pred": "plain",
+            "correct": true
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of polyester.",
+            "pred": "polyester",
+            "correct": true
+          },
+          "usage": {
+            "response": "This fabric is likely to be used for a dress.",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric depicted in the image is a zebra print fabric, which is a type of animal print fabric that features a repeating pattern of black and white stripes, similar to those of a zebra. The fabric appears to be made of a lightweight material, such as cotton or polyester, and has a smooth texture.\n\nBased on these characteristics, we can identify the following features of this fabric:\n\n* **Breathable**: The fabric appears to be lightweight and airy, suggesting that it would allow for good",
+            "pred": [
+              "breathable",
+              "lightweight",
+              "smooth"
+            ],
+            "gt": [
+              "lightweight"
+            ],
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1": 0.5
+          }
+        }
+      },
+      {
+        "fid": "3747",
+        "gt": {
+          "weave": "warp-knitted",
+          "material": "cottonpolyamide",
+          "usage": "skirt",
+          "features": [
+            "three-dimensional",
+            "sheer",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is plain-knit.",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "The fabric in the image appears to be made of cottonpolyamide.",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric is most likely used for a dress or a top. It appears to be a lightweight, knitted fabric with a delicate pattern of holes, which would be suitable for a dress or top that requires a bit of transparency and texture. The fabric's texture and pattern suggest it would be more suitable for a garment that requires a bit of drape and flow, rather than a more structured piece like a coat or suit.",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image appears to be a type of knit fabric, likely made from a natural fiber such as cotton or wool. The fabric has a delicate, lacy pattern with holes and cutouts throughout, which suggests that it is breathable and lightweight. The fabric also appears to be soft and smooth to the touch, with a subtle sheen that suggests it may be slightly glossy. However, the fabric is not particularly elastic or firm, and it does not appear to be thick or warm. Overall",
+            "pred": [
+              "breathable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "smooth",
+              "soft",
+              "thick",
+              "warm"
+            ],
+            "gt": [
+              "sheer",
+              "textured"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "7109",
+        "gt": {
+          "weave": "jacquard",
+          "material": "bamboo-cotton",
+          "usage": "shirt",
+          "features": [
+            "geometric",
+            "glossy",
+            "matte"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be a type of woven fabric, characterized by its intricate pattern of interlacing threads. The fabric has a textured appearance, with a subtle sheen that suggests it may be made from a synthetic or blended material. The pattern on the fabric is not immediately recognizable as any of the options listed, but it does not appear to be a plain or plain-knit fabric. It also does not resemble a double-layer or terry fabric, as it does not have a",
+            "pred": "double-layer",
+            "correct": false
+          },
+          "usage": {
+            "response": "This fabric appears to be a type of woven fabric, likely used for a dress or a skirt.",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image is characterized by its subtle, intricate patterns and a soft, smooth texture. It appears to be made of a lightweight material, which suggests that it may be suitable for a variety of applications, such as clothing or home decor. The fabric's texture is not rough or coarse, but rather has a gentle, flowing quality that suggests it would be comfortable against the skin. Overall, the fabric seems to have a moderate level of thickness, neither too thin nor too thick, and its",
+            "pred": [
+              "lightweight",
+              "rough",
+              "smooth",
+              "soft",
+              "thick"
+            ],
+            "gt": [
+              "glossy"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "7114",
+        "gt": {
+          "weave": "plain-varied",
+          "material": "linen-cotton",
+          "usage": "light-coat",
+          "features": [
+            "plain",
+            "varied",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The fabric in the image appears to be woven in a plain weave pattern, characterized by its simple and consistent interlacing of the warp and weft threads.",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "The fabric in the image appears to be a light-colored, woven fabric that could be used for a variety of purposes. It is difficult to determine the exact usage of this fabric without more information, but it could potentially be used for a light-coat or lining. The fabric's texture and color suggest it would be suitable for a light-coat or lining, as it is likely to be warm and comfortable against the skin.",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric in the image appears to be a type of woven fabric, likely made from natural fibers such as cotton or linen. The texture is rough and uneven, with a visible weave pattern that gives it a textured appearance. The fabric has a slightly rough texture, which suggests it may be less soft and more prone to wrinkles than other types of fabric.\n\nBased on these characteristics, the features that apply to this fabric are:\n\n*   **Rough**: The fabric has a rough texture, which is evident",
+            "pred": [
+              "rough",
+              "soft",
+              "textured"
+            ],
+            "gt": [
+              "textured"
+            ],
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1": 0.5
+          }
+        }
+      }
+    ],
+    "accuracy": {
+      "weave": 0.11764705882352941,
+      "material": 0.2857142857142857,
+      "usage": 0.17647058823529413
+    },
+    "avg_accuracy": 0.19327731092436973,
+    "feature_f1": 0.21237620404287072,
+    "correct": {
+      "weave": 2,
+      "material": 4,
+      "usage": 3
+    },
+    "total": {
+      "weave": 17,
+      "material": 14,
+      "usage": 17
+    },
+    "feature_f1_sum": 3.822771672771673,
+    "feature_count": 18
+  }
+}

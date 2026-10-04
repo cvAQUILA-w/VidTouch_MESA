@@ -26,6 +26,7 @@ data:
   train_repeats_per_epoch: 5
   deterministic_val_pairs: true
   pair_recombination: true
+  sample_with_replacement: true
   image_views_per_sample: 2
   video_views_per_sample: 2
   val_image_views_per_sample: 2

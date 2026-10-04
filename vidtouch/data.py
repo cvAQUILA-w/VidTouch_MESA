@@ -520,11 +520,19 @@ def load_video(
     return load_video_cv2(path, frames, size)
 
 
-def _choose_paths(paths: tuple[str, ...], count: int, training: bool, offset: int = 0) -> tuple[str, ...]:
+def _choose_paths(
+    paths: tuple[str, ...],
+    count: int,
+    training: bool,
+    offset: int = 0,
+    with_replacement: bool = True,
+) -> tuple[str, ...]:
     if not paths:
         raise RuntimeError("Cannot sample from an empty path list")
     count = max(1, count)
     if training:
+        if not with_replacement and count <= len(paths):
+            return tuple(random.sample(paths, count))
         return tuple(random.choice(paths) for _ in range(count))
     return tuple(paths[(offset + i) % len(paths)] for i in range(count))
 
@@ -564,6 +572,7 @@ class VidTouchPairDataset(Dataset):
         image_views_per_sample: int = 1,
         video_views_per_sample: int = 1,
         pair_recombination: bool = True,
+        sample_with_replacement: bool = True,
         video_cache_root: str | Path | None = None,
         val_fabric_sets: bool = False,
     ) -> None:
@@ -580,6 +589,7 @@ class VidTouchPairDataset(Dataset):
         self.image_views_per_sample = max(1, int(image_views_per_sample))
         self.video_views_per_sample = max(1, int(video_views_per_sample))
         self.pair_recombination = bool(pair_recombination)
+        self.sample_with_replacement = bool(sample_with_replacement)
         if not self.pair_recombination and self.image_views_per_sample != self.video_views_per_sample:
             raise ValueError("Paired sampling requires equal image and video view counts")
         self.video_cache_root = str(video_cache_root) if video_cache_root else None
@@ -633,8 +643,18 @@ class VidTouchPairDataset(Dataset):
         if self.training:
             rec = self.records[index % len(self.records)]
             if self.pair_recombination:
-                image_paths = _choose_paths(rec.image_paths, self.image_views_per_sample, True)
-                video_paths = _choose_paths(rec.video_paths, self.video_views_per_sample, True)
+                image_paths = _choose_paths(
+                    rec.image_paths,
+                    self.image_views_per_sample,
+                    True,
+                    with_replacement=self.sample_with_replacement,
+                )
+                video_paths = _choose_paths(
+                    rec.video_paths,
+                    self.video_views_per_sample,
+                    True,
+                    with_replacement=self.sample_with_replacement,
+                )
             else:
                 image_paths, video_paths = _choose_paired_paths(
                     rec.image_paths,

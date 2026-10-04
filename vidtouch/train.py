@@ -209,6 +209,7 @@ def build_everything(cfg: dict[str, Any], data_root: str) -> tuple[
         image_views_per_sample=cfg["data"].get("image_views_per_sample", 1),
         video_views_per_sample=cfg["data"].get("video_views_per_sample", 1),
         pair_recombination=cfg["data"].get("pair_recombination", True),
+        sample_with_replacement=cfg["data"].get("sample_with_replacement", True),
         video_cache_root=video_cache_root,
         val_fabric_sets=cfg["data"].get("val_fabric_sets", False),
     )
@@ -226,6 +227,7 @@ def build_everything(cfg: dict[str, Any], data_root: str) -> tuple[
         image_views_per_sample=cfg["data"].get("val_image_views_per_sample", cfg["data"].get("image_views_per_sample", 1)),
         video_views_per_sample=cfg["data"].get("val_video_views_per_sample", cfg["data"].get("video_views_per_sample", 1)),
         pair_recombination=cfg["data"].get("pair_recombination", True),
+        sample_with_replacement=cfg["data"].get("sample_with_replacement", True),
         video_cache_root=video_cache_root,
         val_fabric_sets=cfg["data"].get("val_fabric_sets", False),
     )
@@ -444,7 +446,8 @@ def evaluate(
     loader: DataLoader,
     device: torch.device,
     cfg: dict[str, Any],
-) -> dict[str, float]:
+    return_predictions: bool = False,
+) -> dict[str, float] | tuple[dict[str, float], list[dict[str, Any]]]:
     model.eval()
     max_batches = cfg["train"].get("max_val_batches")
     all_logits: dict[str, list[torch.Tensor]] = {"weave": [], "material": [], "usage": [], "features": []}
@@ -453,9 +456,11 @@ def evaluate(
     tactile_embs: list[torch.Tensor] = []
     all_unimodal_logits: dict[str, dict[str, list[torch.Tensor]]] = {}
     modality_weights: list[torch.Tensor] = []
+    fabric_ids: list[str] = []
     for step, batch in enumerate(tqdm(loader, desc="val", dynamic_ncols=True), 1):
         if max_batches is not None and step > int(max_batches):
             break
+        fabric_ids.extend(str(value) for value in batch["fabric_id"])
         batch = to_device(batch, device)
         output = model(batch["image"], batch["video"])
         for key in all_logits:
@@ -528,6 +533,30 @@ def evaluate(
     metrics["legacy_main_score"] = mean_legacy_score(metrics)
     metrics["main_score"] = mean_main_score(metrics)
     metrics["mkds"] = material_knowledge_discovery_score(metrics)
+    if return_predictions:
+        feature_pred = (
+            logits["features"].sigmoid() >= float(cfg["eval"]["feature_threshold"])
+        ).to(torch.int64)
+        rows: list[dict[str, Any]] = []
+        for index, fabric_id in enumerate(fabric_ids):
+            rows.append(
+                {
+                    "fabric_id": fabric_id,
+                    "target": {
+                        "weave": int(targets["weave"][index]),
+                        "material": int(targets["material"][index]),
+                        "usage": int(targets["usage"][index]),
+                        "features": targets["features"][index].to(torch.int64).tolist(),
+                    },
+                    "prediction": {
+                        "weave": int(logits["weave"][index].argmax()),
+                        "material": int(logits["material"][index].argmax()),
+                        "usage": int(logits["usage"][index].argmax()),
+                        "features": feature_pred[index].tolist(),
+                    },
+                }
+            )
+        return metrics, rows
     return metrics
 
 

@@ -26,10 +26,20 @@ Dataset media and pretrained checkpoints are not stored in Git.
 Audited three-seed numbers corresponding to this release are recorded in
 [RESULTS.md](RESULTS.md).
 
+Post-review matched controls, five grouped splits, paired Fabric-ID bootstrap
+intervals, data-scale and frame-count studies, semantic-alignment diagnostics,
+MLLM prompt/parser definitions, and per-Fabric predictions are indexed in
+[artifacts/rebuttal_2026](artifacts/rebuttal_2026/README.md). Their frozen
+experiment definitions are documented in
+[REBUTTAL_EXPERIMENTS.md](REBUTTAL_EXPERIMENTS.md). Checkpoints are not
+redistributed.
+
 ## Repository Layout
 
 ```text
 configs/                 MESA, low-shot, and single-factor ablation configs
+artifacts/               Audited compact result artifacts and predictions
+protocols/               Frozen benchmark prompt/parser snapshots
 scripts/                 Portable three-seed training and evaluation helpers
 splits/                  Frozen Fabric-ID partitions and allowed vocabularies
 tests/                   Metric, stability, and configuration tests
@@ -190,6 +200,15 @@ python -m vidtouch.train \
 - Normalization and loss calculations use FP32 under AMP-sensitive paths.
 - Test must not be used to select an epoch, threshold, seed, ablation, or
   ensemble.
+
+## Corrections and Questions
+
+For annotation corrections, reproducibility questions, or takedown requests,
+open a GitHub issue at
+https://github.com/cvAQUILA-w/VidTouch_MESA/issues. Please identify the Fabric
+ID or artifact path and avoid including private information. Dataset-file
+integrity can be checked against the manifest and SHA-256 file distributed on
+Hugging Face.
 
 ## Citation
 

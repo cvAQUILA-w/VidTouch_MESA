@@ -1,0 +1,1092 @@
+{
+  "assignment_sha256": "c96c6c8af21b52e6a180361d0143f292baddc4892913848ecfa257beb4a29019",
+  "confusion_matrices": {
+    "material": {
+      "ground_truth_labels": [
+        "cotton",
+        "cottonpolyamide",
+        "cottonpolyester",
+        "cottonpolyesterspandex",
+        "linencotton",
+        "plastic",
+        "polyamide",
+        "polyester",
+        "polyestercotton",
+        "polyesterpolyamide",
+        "polyesterspandex",
+        "polyesterviscose",
+        "wool"
+      ],
+      "matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "prediction_labels": [
+        "cotton",
+        "cottonpolyamide",
+        "cottonpolyester",
+        "cottonpolyesterspandex",
+        "linencotton",
+        "plastic",
+        "polyamide",
+        "polyester",
+        "polyestercotton",
+        "polyesterpolyamide",
+        "polyesterspandex",
+        "polyesterviscose",
+        "wool",
+        "__invalid__"
+      ]
+    },
+    "usage": {
+      "ground_truth_labels": [
+        "coat",
+        "dress",
+        "hoodie",
+        "knitwear",
+        "light-coat",
+        "lining",
+        "shirt",
+        "skirt",
+        "suit",
+        "t-shirt",
+        "top"
+      ],
+      "matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "prediction_labels": [
+        "coat",
+        "dress",
+        "hoodie",
+        "knitwear",
+        "light-coat",
+        "lining",
+        "shirt",
+        "skirt",
+        "suit",
+        "t-shirt",
+        "top",
+        "__invalid__"
+      ]
+    },
+    "weave": {
+      "ground_truth_labels": [
+        "double-layer",
+        "herringbone",
+        "jacquard",
+        "plain",
+        "plain-knit",
+        "plain-varied",
+        "rib",
+        "terry",
+        "twill",
+        "warp-knitted"
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "prediction_labels": [
+        "double-layer",
+        "herringbone",
+        "jacquard",
+        "plain",
+        "plain-knit",
+        "plain-varied",
+        "rib",
+        "terry",
+        "twill",
+        "warp-knitted",
+        "__invalid__"
+      ]
+    }
+  },
+  "data_manifest_sha256": "66a00fa35f3a6d2c3cc014e6f9114a528ab127552b650df51657cdd36c836602",
+  "effective_fabric_counts": {
+    "features": 18,
+    "material": 19,
+    "usage": 17,
+    "weave": 18
+  },
+  "labels_file_sha256": "bd263e1e73118e4cafff754d5a123b6e78549ae3e1aa4a0081d14ca681b303d9",
+  "metrics": {
+    "features": {
+      "count": 18,
+      "example_f1": 0.0,
+      "invalid_output_count": 0,
+      "invalid_output_rate": 0.0,
+      "macro_f1": 0.0,
+      "micro_f1": 0.0
+    },
+    "legacy_main": 0.11218610251117991,
+    "macro_main": 0.06695804195804196,
+    "material": {
+      "accuracy": 0.15789473684210525,
+      "balanced_accuracy": 0.07692307692307693,
+      "correct": 3,
+      "count": 19,
+      "invalid_output_count": 0,
+      "invalid_output_rate": 0.0,
+      "macro_f1": 0.020979020979020976
+    },
+    "usage": {
+      "accuracy": 0.23529411764705882,
+      "balanced_accuracy": 0.09090909090909091,
+      "correct": 4,
+      "count": 17,
+      "invalid_output_count": 0,
+      "invalid_output_rate": 0.0,
+      "macro_f1": 0.03463203463203463
+    },
+    "weave": {
+      "accuracy": 0.05555555555555555,
+      "balanced_accuracy": 0.1,
+      "correct": 1,
+      "count": 18,
+      "invalid_output_count": 0,
+      "invalid_output_rate": 0.0,
+      "macro_f1": 0.010526315789473684
+    }
+  },
+  "partition": "val",
+  "partition_fabric_count": 22,
+  "per_class": {
+    "features": {
+      "breathable": {
+        "f1": 0.0,
+        "fn": 3,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3,
+        "tp": 0
+      },
+      "durable": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "elastic": {
+        "f1": 0.0,
+        "fn": 5,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 5,
+        "tp": 0
+      },
+      "firm": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "glossy": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "lightweight": {
+        "f1": 0.0,
+        "fn": 2,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 2,
+        "tp": 0
+      },
+      "rough": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "sheer": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "smooth": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "soft": {
+        "f1": 0.0,
+        "fn": 4,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 4,
+        "tp": 0
+      },
+      "textured": {
+        "f1": 0.0,
+        "fn": 3,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3,
+        "tp": 0
+      },
+      "thick": {
+        "f1": 0.0,
+        "fn": 2,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 2,
+        "tp": 0
+      },
+      "warm": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "wrinkle-resistant": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      }
+    },
+    "material": {
+      "cotton": {
+        "f1": 0.2727272727272727,
+        "fn": 0,
+        "fp": 16,
+        "precision": 0.15789473684210525,
+        "recall": 1.0,
+        "support": 3,
+        "tp": 3
+      },
+      "cottonpolyamide": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "cottonpolyester": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "cottonpolyesterspandex": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "linencotton": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "plastic": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "polyamide": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "polyester": {
+        "f1": 0.0,
+        "fn": 4,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 4,
+        "tp": 0
+      },
+      "polyestercotton": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "polyesterpolyamide": {
+        "f1": 0.0,
+        "fn": 2,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 2,
+        "tp": 0
+      },
+      "polyesterspandex": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "polyesterviscose": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "wool": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      }
+    },
+    "usage": {
+      "coat": {
+        "f1": 0.38095238095238093,
+        "fn": 0,
+        "fp": 13,
+        "precision": 0.23529411764705882,
+        "recall": 1.0,
+        "support": 4,
+        "tp": 4
+      },
+      "dress": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "hoodie": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "knitwear": {
+        "f1": 0.0,
+        "fn": 2,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 2,
+        "tp": 0
+      },
+      "light-coat": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "lining": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "shirt": {
+        "f1": 0.0,
+        "fn": 3,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3,
+        "tp": 0
+      },
+      "skirt": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "suit": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "t-shirt": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "top": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      }
+    },
+    "weave": {
+      "double-layer": {
+        "f1": 0.10526315789473684,
+        "fn": 0,
+        "fp": 17,
+        "precision": 0.05555555555555555,
+        "recall": 1.0,
+        "support": 1,
+        "tp": 1
+      },
+      "herringbone": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "jacquard": {
+        "f1": 0.0,
+        "fn": 3,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3,
+        "tp": 0
+      },
+      "plain": {
+        "f1": 0.0,
+        "fn": 4,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 4,
+        "tp": 0
+      },
+      "plain-knit": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "plain-varied": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "rib": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "terry": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      "twill": {
+        "f1": 0.0,
+        "fn": 4,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 4,
+        "tp": 0
+      },
+      "warp-knitted": {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      }
+    }
+  },
+  "predictions_file_sha256": "49e1e06e0e512b729e4acaa2aeafd0fba914d84c8741b21a7d7c1699f54e40d2",
+  "protocol": "fabric_common_v2",
+  "split_file_sha256": "4a466d92bfaf65812b835eb3f4c28787df4848eb4f0d7ba331a1f9a7267fe45d",
+  "view_invalid_output_count": {
+    "features": 0,
+    "material": 0,
+    "usage": 0,
+    "weave": 0
+  }
+}

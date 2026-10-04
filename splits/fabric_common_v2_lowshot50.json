@@ -409,7 +409,7 @@
       },
       "prefix_of_deterministic_order": true,
       "protocol": "deterministic_nested_iterative_stratification_v1",
-      "source_split": "experiments\\vidtouch_method\\splits\\fabric_common_v2.json",
+      "source_split": "../splits/fabric_common_v2.json",
       "source_train_size": 100,
       "train_size": 50,
       "unused_train_size": 50

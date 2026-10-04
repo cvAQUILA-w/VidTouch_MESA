@@ -1,0 +1,6 @@
+_base_: ../mesa.yaml
+
+# Post-review diagnostic: preserve full MESA but prevent duplicate views inside
+# a 2-RGB/2-tactile training encounter. Every Train Fabric has enough views.
+data:
+  sample_with_replacement: false

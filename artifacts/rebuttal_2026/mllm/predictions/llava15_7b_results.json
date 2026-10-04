@@ -1,0 +1,1760 @@
+{
+  "val": {
+    "samples": [
+      {
+        "fid": "00",
+        "gt": {
+          "weave": "oxford",
+          "material": "cotton",
+          "usage": "laptopbag",
+          "features": [
+            "hard",
+            "rough"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": true
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "rough"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0306",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "firm"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain-knit",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Knitwear",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Soft, smooth, and lightweight are the features that apply to this fabric.",
+            "pred": [
+              "lightweight",
+              "smooth",
+              "soft"
+            ],
+            "gt": [
+              "firm"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0310",
+        "gt": {
+          "weave": "plain",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": true
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "Durable, elastic, firm, glossy, lightweight, rough, sheer, smooth, soft, textured, thick, warm, wrinkle-resistant.",
+            "pred": [
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.07692307692307693,
+            "recall": 1.0,
+            "f1": 0.14285714285714288
+          }
+        }
+      },
+      {
+        "fid": "0317",
+        "gt": {
+          "weave": "knitted",
+          "material": "cottonpolyamide",
+          "usage": "dress",
+          "features": [
+            "thick"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Knitwear",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Durable, firm, and textured",
+            "pred": [
+              "durable",
+              "firm",
+              "textured"
+            ],
+            "gt": [
+              "thick"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0320",
+        "gt": {
+          "weave": "rib",
+          "material": "cottonpolyester",
+          "usage": "knitwear",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Textured",
+            "pred": [
+              "textured"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0401",
+        "gt": {
+          "weave": "twill",
+          "material": "wool",
+          "usage": "suit",
+          "features": [
+            "delicate"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Shirt",
+            "pred": "shirt",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0404",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterviscose",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Suit",
+            "pred": "suit",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0718",
+        "gt": {
+          "weave": "plain-knit",
+          "material": "polyesterspandex",
+          "usage": "knitwear",
+          "features": [
+            "elastic",
+            "soft",
+            "thick"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "T-shirt",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "elastic",
+              "soft",
+              "thick"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "14",
+        "gt": {
+          "weave": "plain",
+          "material": "plastic",
+          "usage": "pencilcase",
+          "features": [
+            "transparent"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "Polyester",
+            "pred": "polyester",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "15",
+        "gt": {
+          "weave": "herringbone",
+          "material": "cotton",
+          "usage": "sportstrousers",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": true
+          },
+          "features": {
+            "response": "Firm, rough, and thick",
+            "pred": [
+              "firm",
+              "rough",
+              "thick"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3713",
+        "gt": {
+          "weave": "plain",
+          "material": "linencotton",
+          "usage": "shirt",
+          "features": [
+            "breathable",
+            "lightweight",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": true
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric is described as having a rough texture and being made of linen. It is also described as being lightweight and having a smooth surface.",
+            "pred": [
+              "lightweight",
+              "rough",
+              "smooth"
+            ],
+            "gt": [
+              "breathable",
+              "lightweight",
+              "textured"
+            ],
+            "precision": 0.3333333333333333,
+            "recall": 0.3333333333333333,
+            "f1": 0.3333333333333333
+          }
+        }
+      },
+      {
+        "fid": "3731",
+        "gt": {
+          "weave": "plain-varied",
+          "material": "polyester",
+          "usage": "shirt",
+          "features": [
+            "linen-like",
+            "durable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Suit",
+            "pred": "suit",
+            "correct": false
+          },
+          "features": {
+            "response": "Durable, elastic, firm, textured, thick, warm, wrinkle-resistant",
+            "pred": [
+              "durable",
+              "elastic",
+              "firm",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "durable"
+            ],
+            "precision": 0.14285714285714285,
+            "recall": 1.0,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "3732",
+        "gt": {
+          "weave": "twill",
+          "material": "polyester",
+          "usage": "lining",
+          "features": [
+            "brushed",
+            "fluffy"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "3733",
+        "gt": {
+          "weave": "plain",
+          "material": "polyestermemory",
+          "usage": "fashion",
+          "features": [
+            "color-spun",
+            "dye-first"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": true
+          }
+        }
+      },
+      {
+        "fid": "3741",
+        "gt": {
+          "weave": "warp-knitted",
+          "material": "polyester",
+          "usage": "skirt",
+          "features": [
+            "smooth",
+            "drapey",
+            "breathable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric is described as having a rough texture, which means it is not smooth or sheer. However, it is not possible to determine from the image whether the fabric is breathable, durable, elastic, firm, glossy, lightweight, textured, thick, warm, wrinkle-resistant, or soft.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "smooth",
+              "breathable"
+            ],
+            "precision": 0.14285714285714285,
+            "recall": 1.0,
+            "f1": 0.25
+          }
+        }
+      },
+      {
+        "fid": "3744",
+        "gt": {
+          "weave": "hexagon",
+          "material": "polyamide",
+          "usage": "shirt",
+          "features": [
+            "gold-printed",
+            "sheer",
+            "floral"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Dress",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "sheer"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3746",
+        "gt": {
+          "weave": "terry",
+          "material": "cotton",
+          "usage": "hoodie",
+          "features": [
+            "elastic",
+            "warm",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "T-shirt",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "elastic",
+              "warm",
+              "textured"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3749",
+        "gt": {
+          "weave": "weft",
+          "material": "polyestercotton",
+          "usage": "t-shirt",
+          "features": [
+            "moisture-wicking",
+            "lightweight",
+            "soft"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "T-shirt",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "lightweight",
+              "soft"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "7104",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyester",
+          "usage": "fashion-clothing",
+          "features": [
+            "glossy",
+            "gorgeous",
+            "visual-striking"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Jacquard",
+            "pred": "jacquard",
+            "correct": true
+          },
+          "material": {
+            "response": "Polyester",
+            "pred": "polyester",
+            "correct": true
+          },
+          "features": {
+            "response": "Durable, elastic, firm, glossy, lightweight, rough, sheer, smooth, soft, textured, thick, warm, wrinkle-resistant.",
+            "pred": [
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "glossy"
+            ],
+            "precision": 0.07692307692307693,
+            "recall": 1.0,
+            "f1": 0.14285714285714288
+          }
+        }
+      },
+      {
+        "fid": "7115",
+        "gt": {
+          "weave": "double-layer",
+          "material": "linen-silk-cotton-spandex",
+          "usage": "light-coat",
+          "features": [
+            "double-crepe",
+            "textured",
+            "elegant"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "textured"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "7117",
+        "gt": {
+          "weave": "jacquard",
+          "material": "viscose-nylon",
+          "usage": "top",
+          "features": [
+            "ancient-jacquard",
+            "breathable",
+            "wrinkle-resistant"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "breathable",
+              "wrinkle-resistant"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "7119",
+        "gt": {
+          "weave": "jacquard",
+          "material": "cotton-polyester-spandex",
+          "usage": "coat",
+          "features": [
+            "three-dimensional-textured",
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "usage": {
+            "response": "Dress",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      }
+    ],
+    "accuracy": {
+      "weave": 0.2222222222222222,
+      "material": 0.2222222222222222,
+      "usage": 0.058823529411764705
+    },
+    "avg_accuracy": 0.16775599128540306,
+    "feature_f1": 0.06216931216931217,
+    "correct": {
+      "weave": 4,
+      "material": 4,
+      "usage": 1
+    },
+    "total": {
+      "weave": 18,
+      "material": 18,
+      "usage": 17
+    },
+    "feature_f1_sum": 1.119047619047619,
+    "feature_count": 18
+  },
+  "test": {
+    "samples": [
+      {
+        "fid": "01",
+        "gt": {
+          "weave": "plain",
+          "material": "linen",
+          "usage": "curtain",
+          "features": [
+            "hard",
+            "rough"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": true
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "rough"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "03",
+        "gt": {
+          "weave": "herringbone",
+          "material": "wool",
+          "usage": "hoodie",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain-knit",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Knitwear",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric is described as gray, textured, and thick. It is not explicitly stated whether the fabric is breathable, durable, elastic, firm, glossy, lightweight, rough, sheer, smooth, soft, or wrinkle-resistant. However, since it is described as thick, it is likely that the fabric is not sheer or lightweight.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.07692307692307693,
+            "recall": 1.0,
+            "f1": 0.14285714285714288
+          }
+        }
+      },
+      {
+        "fid": "0304",
+        "gt": {
+          "weave": "plain",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "firm"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Knitwear",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric is described as having a textured appearance, which suggests that it is not smooth or sheer. However, it is not possible to determine from the image whether the fabric is breathable, durable, elastic, firm, glossy, lightweight, rough, sheer, smooth, soft, or thick. The fabric could be either warm or wrinkle-resistant, depending on the type of yarn and weaving technique used.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "firm"
+            ],
+            "precision": 0.07142857142857142,
+            "recall": 1.0,
+            "f1": 0.13333333333333333
+          }
+        }
+      },
+      {
+        "fid": "0308",
+        "gt": {
+          "weave": "twill",
+          "material": "polyesterpolyamide",
+          "usage": "coat",
+          "features": [
+            "soft"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "Polyester",
+            "pred": "polyester",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "Durable, elastic, firm, glossy, lightweight, rough, sheer, smooth, soft, textured, thick, warm, wrinkle-resistant.",
+            "pred": [
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft"
+            ],
+            "precision": 0.07692307692307693,
+            "recall": 1.0,
+            "f1": 0.14285714285714288
+          }
+        }
+      },
+      {
+        "fid": "0410",
+        "gt": {
+          "weave": "plain",
+          "material": "viscosepolyesterspandex",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "usage": {
+            "response": "Shirt",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0412",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyesterspandex",
+          "usage": "dress",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "Polyester",
+            "pred": "polyester",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Durable, elastic, firm, glossy, lightweight, rough, sheer, smooth, soft, textured, thick, warm, wrinkle-resistant",
+            "pred": [
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.07692307692307693,
+            "recall": 1.0,
+            "f1": 0.14285714285714288
+          }
+        }
+      },
+      {
+        "fid": "0414",
+        "gt": {
+          "weave": "knitted",
+          "material": "cottonpolyesterspandex",
+          "usage": "knitwear",
+          "features": [
+            "three-dimensional"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0416",
+        "gt": {
+          "weave": "twill",
+          "material": "tencelcottonspandex",
+          "usage": "coat",
+          "features": [
+            "elastic"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "T-shirt",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "elastic"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "0704",
+        "gt": {
+          "weave": "jacquard",
+          "material": "polyestercotton",
+          "usage": "top",
+          "features": [
+            "gold-lined",
+            "lace"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Jacquard",
+            "pred": "jacquard",
+            "correct": true
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Dress",
+            "pred": "dress",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "0712",
+        "gt": {
+          "weave": "plain-knit",
+          "material": "polyester",
+          "usage": "t-shirt",
+          "features": [
+            "soft",
+            "smooth"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Durable, firm, rough, smooth, textured, thick, warm, wrinkle-resistant",
+            "pred": [
+              "durable",
+              "firm",
+              "rough",
+              "smooth",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft",
+              "smooth"
+            ],
+            "precision": 0.125,
+            "recall": 0.5,
+            "f1": 0.2
+          }
+        }
+      },
+      {
+        "fid": "0713",
+        "gt": {
+          "weave": "terry",
+          "material": "cottonpolyester",
+          "usage": "thermal-wear",
+          "features": [
+            "soft",
+            "thick"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "features": {
+            "response": "Durable, elastic, firm, textured, thick, warm, wrinkle-resistant",
+            "pred": [
+              "durable",
+              "elastic",
+              "firm",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "soft",
+              "thick"
+            ],
+            "precision": 0.14285714285714285,
+            "recall": 0.5,
+            "f1": 0.22222222222222224
+          }
+        }
+      },
+      {
+        "fid": "0715",
+        "gt": {
+          "weave": "rib",
+          "material": "bamboocharcoalspandexspolyamide",
+          "usage": "base-layer",
+          "features": [
+            "elastic",
+            "soft",
+            "smooth"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "elastic",
+              "soft",
+              "smooth"
+            ],
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          }
+        }
+      },
+      {
+        "fid": "09",
+        "gt": {
+          "weave": "bubble",
+          "material": "plastic",
+          "usage": "airbubblefilm",
+          "features": [
+            "light"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "Polyester",
+            "pred": "polyester",
+            "correct": false
+          }
+        }
+      },
+      {
+        "fid": "12",
+        "gt": {
+          "weave": "diamond",
+          "material": "nylon",
+          "usage": "straps",
+          "features": [
+            "hard"
+          ]
+        },
+        "pred": {}
+      },
+      {
+        "fid": "3701",
+        "gt": {
+          "weave": "crocodileembossed",
+          "material": "polyesterpu",
+          "usage": "coat",
+          "features": [
+            "thick",
+            "warm",
+            "durable"
+          ]
+        },
+        "pred": {
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": true
+          },
+          "features": {
+            "response": "Durable, firm, glossy, lightweight, rough, sheer, smooth, soft, textured, thick, warm, wrinkle-resistant",
+            "pred": [
+              "durable",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "thick",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "thick",
+              "warm",
+              "durable"
+            ],
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1": 0.4
+          }
+        }
+      },
+      {
+        "fid": "3705",
+        "gt": {
+          "weave": "stripedcheck",
+          "material": "polyesterviscose",
+          "usage": "suit",
+          "features": [
+            "moisture-wicking",
+            "wrinkle-resistant"
+          ]
+        },
+        "pred": {
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Knitwear",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Durable, firm, and textured",
+            "pred": [
+              "durable",
+              "firm",
+              "textured"
+            ],
+            "gt": [
+              "wrinkle-resistant"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3714",
+        "gt": {
+          "weave": "double-layer",
+          "material": "cotton",
+          "usage": "shirt",
+          "features": [
+            "lightweight",
+            "breathable",
+            "stable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "lightweight",
+              "breathable"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3720",
+        "gt": {
+          "weave": "plain",
+          "material": "cotton",
+          "usage": "shirt",
+          "features": [
+            "soft",
+            "shiny",
+            "breathable"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": true
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "soft",
+              "breathable"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3740",
+        "gt": {
+          "weave": "plain",
+          "material": "polyester",
+          "usage": "lining",
+          "features": [
+            "printed",
+            "lightweight"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": true
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "T-shirt",
+            "pred": "shirt",
+            "correct": false
+          },
+          "features": {
+            "response": "Smooth",
+            "pred": [
+              "smooth"
+            ],
+            "gt": [
+              "lightweight"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      {
+        "fid": "3747",
+        "gt": {
+          "weave": "warp-knitted",
+          "material": "cottonpolyamide",
+          "usage": "skirt",
+          "features": [
+            "three-dimensional",
+            "sheer",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is herringbone.",
+            "pred": "herringbone",
+            "correct": false
+          },
+          "material": {
+            "response": "Cotton",
+            "pred": "cotton",
+            "correct": false
+          },
+          "usage": {
+            "response": "Dress",
+            "pred": "dress",
+            "correct": false
+          },
+          "features": {
+            "response": "Sheer, smooth, soft, textured",
+            "pred": [
+              "sheer",
+              "smooth",
+              "soft",
+              "textured"
+            ],
+            "gt": [
+              "sheer",
+              "textured"
+            ],
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          }
+        }
+      },
+      {
+        "fid": "7109",
+        "gt": {
+          "weave": "jacquard",
+          "material": "bamboo-cotton",
+          "usage": "shirt",
+          "features": [
+            "geometric",
+            "glossy",
+            "matte"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "The weave pattern of this fabric is jacquard.",
+            "pred": "jacquard",
+            "correct": true
+          },
+          "usage": {
+            "response": "Coat",
+            "pred": "coat",
+            "correct": false
+          },
+          "features": {
+            "response": "The fabric is described as having a pattern, which suggests that it is textured. However, the other features listed, such as breathable, durable, elastic, firm, glossy, lightweight, rough, sheer, smooth, soft, and warm, do not apply to the fabric. The fabric is described as being made of silk, which is known for its smooth and glossy appearance, but it is not wrinkle-resistant.",
+            "pred": [
+              "breathable",
+              "durable",
+              "elastic",
+              "firm",
+              "glossy",
+              "lightweight",
+              "rough",
+              "sheer",
+              "smooth",
+              "soft",
+              "textured",
+              "warm",
+              "wrinkle-resistant"
+            ],
+            "gt": [
+              "glossy"
+            ],
+            "precision": 0.07692307692307693,
+            "recall": 1.0,
+            "f1": 0.14285714285714288
+          }
+        }
+      },
+      {
+        "fid": "7114",
+        "gt": {
+          "weave": "plain-varied",
+          "material": "linen-cotton",
+          "usage": "light-coat",
+          "features": [
+            "plain",
+            "varied",
+            "textured"
+          ]
+        },
+        "pred": {
+          "weave": {
+            "response": "Plain",
+            "pred": "plain",
+            "correct": false
+          },
+          "usage": {
+            "response": "Knitwear",
+            "pred": "knitwear",
+            "correct": false
+          },
+          "features": {
+            "response": "Soft, smooth, and lightweight",
+            "pred": [
+              "lightweight",
+              "smooth",
+              "soft"
+            ],
+            "gt": [
+              "textured"
+            ],
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      }
+    ],
+    "accuracy": {
+      "weave": 0.23529411764705882,
+      "material": 0.14285714285714285,
+      "usage": 0.11764705882352941
+    },
+    "avg_accuracy": 0.16526610644257703,
+    "feature_f1": 0.14964726631393296,
+    "correct": {
+      "weave": 4,
+      "material": 2,
+      "usage": 2
+    },
+    "total": {
+      "weave": 17,
+      "material": 14,
+      "usage": 17
+    },
+    "feature_f1_sum": 2.6936507936507934,
+    "feature_count": 18
+  }
+}

@@ -1,0 +1,105 @@
+seed: 123
+split:
+  mode: fabric
+  file: splits/rebuttal_sensitivity_c.json
+  min_pairs_per_fabric: 1
+  train_partitions:
+  - train
+  eval_partition: val
+label_filter:
+  enabled: true
+  count_source: split_manifest
+  min_counts:
+    weave: 3
+    material: 3
+    usage: 3
+    features: 5
+data:
+  image_size: 224
+  video_size: 160
+  video_frames: 12
+  video_backend: cv2
+  video_cache_root: auto_float16
+  num_workers: 4
+  train_repeats_per_epoch: 5
+  deterministic_val_pairs: true
+  pair_recombination: false
+  sample_with_replacement: true
+  image_views_per_sample: 2
+  video_views_per_sample: 2
+  val_image_views_per_sample: 2
+  val_video_views_per_sample: 2
+  val_fabric_sets: true
+model:
+  image_backbone: dinov2_vits14
+  image_backbone_path: null
+  image_pretrained: true
+  freeze_visual_backbone: true
+  visual_unfreeze_last_blocks: 1
+  visual_local_grid: 1
+  visual_local_weight: 0.5
+  visual_texture_stats: false
+  visual_texture_channels: 32
+  tactile_backbone: r3d18
+  tactile_backbone_path: null
+  tactile_pretrained: true
+  freeze_tactile_backbone: true
+  tactile_unfreeze_last_blocks: 0
+  tactile_base_channels: 32
+  tactile_use_delta: false
+  embed_dim: 256
+  fusion_hidden_dim: 512
+  visual_set_pooling: mean
+  tactile_set_pooling: mean
+  fusion_mode: multimodal
+  attribute_fusion: shared
+  fusion_operator: concat
+loss:
+  temperature: 0.07
+  contrastive_weight: 0.0
+  cls_weight: 1.0
+  relation_weight: 0.0
+  positive_weights:
+    fabric: 1.0
+    weave: 0.25
+    material: 0.35
+    usage: 0.15
+    feature: 0.15
+  classification:
+    class_balance_beta: 0.0
+    label_smoothing: 0.0
+    feature_pos_weight: false
+    feature_pos_weight_max: 10.0
+    feature_focal_gamma_pos: 0.0
+    feature_focal_gamma_neg: 0.0
+    focal_gamma:
+      weave: 0.0
+      material: 0.0
+      usage: 0.0
+    attribute_weights:
+      weave: 1.0
+      material: 1.0
+      usage: 1.0
+      features: 1.0
+train:
+  epochs: 60
+  batch_size: 12
+  lr: 0.0003
+  weight_decay: 0.05
+  amp: true
+  grad_clip: 1.0
+  log_every: 20
+  max_train_batches: null
+  max_val_batches: null
+  save_every: 999
+  backbone_lr_mult: 0.05
+  tactile_backbone_lr_mult: 0.0
+  backbone_warmup_epochs: 3
+  amp_init_scale: 1024.0
+  amp_growth_interval: 2000
+  amp_retry_on_nonfinite: true
+eval:
+  retrieval_topk:
+  - 1
+  - 5
+  feature_threshold: 0.5

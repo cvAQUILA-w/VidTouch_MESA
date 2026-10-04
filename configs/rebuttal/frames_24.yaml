@@ -1,0 +1,4 @@
+_base_: ../mesa.yaml
+
+data:
+  video_frames: 24

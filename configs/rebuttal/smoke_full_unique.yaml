@@ -1,0 +1,12 @@
+_base_: mesa_fpr_unique.yaml
+
+# Deployment-only smoke test. Keep the formal batch/evidence geometry so the
+# memory check is representative, while limiting data loading and optimization.
+data:
+  num_workers: 0
+  train_repeats_per_epoch: 1
+
+train:
+  epochs: 1
+  max_train_batches: 2
+  max_val_batches: 2

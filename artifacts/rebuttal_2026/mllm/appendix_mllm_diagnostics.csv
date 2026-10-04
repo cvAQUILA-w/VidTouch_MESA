@@ -1,0 +1,7 @@
+model,val_macro,test_macro,material_nonzero_f1_classes
+Gemma-3,14.9524,15.7783,3
+Llama-3.2,13.9525,15.1912,4
+Qwen2-VL,18.1530,10.7279,2
+GLM-4V,6.8838,7.0529,1
+InternVL2.5,6.6958,6.6958,1
+LLaVA-1.5,7.7943,5.4534,1
